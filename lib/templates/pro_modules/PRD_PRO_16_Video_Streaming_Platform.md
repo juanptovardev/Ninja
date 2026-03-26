@@ -1,22 +1,22 @@
-# 📄 PRD PRO MODULE: Video_Streaming_Platform
-
-> *Variante Especializada Ninja PRO: Enfocada directamente en la estandarización y arquitectura de este patrón de diseño enterprise.*
+# 📄 PRD PRO MODULE: Video Streaming Platform
+> *Variante Especializada Ninja PRO: Arquitectura para ingesta, transcodificación y distribución global de video OTT con DRM y protección de contenido.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo
-Define los cuellos de botella específicos de este tipo de sistemas (Ej: Escalabilidad masiva para Social, Consistencia ACID estricta para FinTech, WebSocket throughput para IoT).
+**El Reto Principal:** Ancho de Banda y Formatos de Dispositivo. El usuario puede ver el video en un iPhone 4G en una zona rural o en un Smart TV 4K conectado a fibra.
+**Meta Tecnológica:** Transcodificación multi-bitrate (HLS/DASH) dinámica y distribución en Edge (CDN) masiva sin saturar el Origin Server.
 
 ## 2. 🏛️ Componentes Estratégicos (Tech Stack Especializado)
-- **Core Engine:** Tecnologías obligatorias para resolver la barrera técnica principal de este nicho.
-- **Librerías Ninja Aprobadas:** Sugerencias (Ej: WebRTC, Three.js, Kafka, Redis, Web Workers).
+- **Video Orchestration:** AWS MediaLive/MediaConvert, Mux API, o Cloudflare Stream.
+- **Distribución CDN:** Redes optimizadas para media (Fastly, Akamai, Cloudflare Edge).
+- **Video Player (Client):** Video.js o hls.js (Web) / ExoPlayer (Android) / AVPlayer (iOS).
+- **Protección de Derechos:** Apple FairPlay, Google Widevine DRM.
 
-## 3. 🛡️ Consideraciones de Riesgo y Seguridad
-- Identificación de vectores de ataque más comunes en esta industria.
-- Estrategias de retención de datos y compliance requerido.
+## 3. 🛡️ Riesgos Económicos y Antipiratería
+- **Vector de Falla Primario:** Costos de Egress disparados por bots scrapeando archivos de video o ataques DDoS al servidor de origen.
+- **Mitigación Mandatoria:** Uso de Tokens temporales de URL firmadas (Signed URLs/Cookies) validadas en el Edge Worker, expirando a los 5 minutos de no uso.
 
-## 4. 🥷 Plan de Ejecución Acelerada
-- **Paso 1:** Scaffolding Inicial de Infraestructura.
-- **Paso 2:** Desarrollo del Motor de Datos (Backend Focus).
-- **Paso 3:** Hidratación de UI / Client-Side Rendering optimizado.
-
----
-*Ninja v3.4 - Librería de Patrones Enterprise (Fábrica de Nichos)*
+## 4. 🥷 Plan de Ingeniería (Sprints Específicos)
+- **Sprint 1 (Ingesta y Presets):** Construir la cola de carga; cuando un usuario sube un MP4, se dispara un webhook a AWS MediaConvert para generar resoluciones 1080p, 720p, 480p, 360p.
+- **Sprint 2 (Player Resiliente):** Implementar hls.js en el frontend con ABR (Adaptive Bitrate Streaming) que baje o suba la calidad según el test de velocidad nativo del cliente.
+- **Sprint 3 (Analítica de Playback):** Event Sourcing para capturar heartbeats cada 5 segundos ("Minutos consumidos", "Rebuffering events").
+- **Sprint 4 (DRM y Rentas):** Sistema transaccional VOD (Video on Demand) con bloqueo de reproducciones simultáneas por cuenta.`

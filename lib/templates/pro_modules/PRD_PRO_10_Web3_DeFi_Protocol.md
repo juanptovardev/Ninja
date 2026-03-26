@@ -1,22 +1,22 @@
-# 📄 PRD PRO MODULE: Web3_DeFi_Protocol
-
-> *Variante Especializada Ninja PRO: Enfocada directamente en la estandarización y arquitectura de este patrón de diseño enterprise.*
+# 📄 PRD PRO MODULE: Web3 DeFi Protocol & Smart Contracts
+> *Variante Especializada Ninja PRO: Despliegue de contratos inteligentes inmutables y dApps financieras descentralizadas en redes Layer 1 o Layer 2.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo
-Define los cuellos de botella específicos de este tipo de sistemas (Ej: Escalabilidad masiva para Social, Consistencia ACID estricta para FinTech, WebSocket throughput para IoT).
+**El Reto Principal:** "El código es Ley" (Immutability). A diferencia del Web2, si aquí haces un push de un bug al mainnet, cuesta millones de dólares irrecuperables. No hay boton de Rollback (Salvo proxies, que añaden riesgo).
+**Meta Tecnológica:** Smart Contracts formalmente verificados y una DApp frontend "Stateless" que lee el Block Explorer directamente.
 
 ## 2. 🏛️ Componentes Estratégicos (Tech Stack Especializado)
-- **Core Engine:** Tecnologías obligatorias para resolver la barrera técnica principal de este nicho.
-- **Librerías Ninja Aprobadas:** Sugerencias (Ej: WebRTC, Three.js, Kafka, Redis, Web Workers).
+- **Protocolo y Red:** Solidity / Vyper para el contrato. EVM Compatible (Ethereum, Arbitrum, Base).
+- **Infraestructura RPC:** Alchemy, Infura, o QuickNode (Evitando cuellos de botella de red para leer el estado del contrato).
+- **Librerías Web3:** Viem, Wagmi, Ethers.js y ConnectKit (RainbowKit) integradas codo con codo con Next.js/React.
+- **Indexación On-Chain:** The Graph (Subgraphs) para leer datos complejos (eventos pasados) sin destruir el tiempo de carga del usuario.
 
-## 3. 🛡️ Consideraciones de Riesgo y Seguridad
-- Identificación de vectores de ataque más comunes en esta industria.
-- Estrategias de retención de datos y compliance requerido.
+## 3. 🛡️ Riesgos Cripto-Económicos Extremos
+- **Vector de Ataque Primario:** Flash Loans Attacks, Reentrancy, Oracle Manipulation, y Front-Running (MEV).
+- **Mitigación Mandatoria:** Uso de OpenZeppelin testeds. Implementación de pausas nativas (\`Pausable\`). Uso de Oráculos de confianza cruzada (Chainlink).
 
-## 4. 🥷 Plan de Ejecución Acelerada
-- **Paso 1:** Scaffolding Inicial de Infraestructura.
-- **Paso 2:** Desarrollo del Motor de Datos (Backend Focus).
-- **Paso 3:** Hidratación de UI / Client-Side Rendering optimizado.
-
----
-*Ninja v3.4 - Librería de Patrones Enterprise (Fábrica de Nichos)*
+## 4. 🥷 Plan de Ingeniería (Sprints Específicos)
+- **Sprint 1 (Desarrollo Central del Smart Contract):** Programar la lógica financiera (Staking/Liquidity/AMM) usando Hardhat o Foundry. Inclusión de Fuzz Testing masivo.
+- **Sprint 2 (Testnet e Indexador):** Despliegue a Testnet (Sepolia/Goerli). Construcción del Subgraph en "The Graph" para rastrear los \`emit\` de eventos y visualizaciones.
+- **Sprint 3 (DApp Frontend Web3):** Conexión de wallets a la interfaz; lectura del estado local; simulación de transacción previa confirmación web.
+- **Sprint 4 (Auditoría Formal Externa):** El código se congela. Se envía a entidades (Trail of Bits, CertiK) o Bug Bounties públicos (Immunefi).

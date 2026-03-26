@@ -1,28 +1,75 @@
-# 🤖 REGISTRO DE MODELOS OPTIMIZADOS (OPENCODE v3.3)
+# 🤖 REGISTRO MAESTRO DE MODELOS (NINJA v3.3)
 
-Esta es la lista oficial de modelos disponibles y probados en el ecosistema OpenCode para su uso con el Ninja Framework v3.3.
-
-## 🏆 Modelos Elite (Recomendados para el Orquestador)
-*   **Claude 3.5 Sonnet**: Máxima precisión arquitectónica y seguimiento de reglas.
-*   **GPT-4o / GPT-4 Turbo**: Excelente para debug complejo y visión.
-*   **DeepSeek-V3**: El modelo standard más potente para lógica de backend.
-
-## ⚡ Modelos de Ejecución (Ideales para Sub-Agentes OpenCode)
-Basado en la infraestructura de Ollama Cloud y OpenCode:
-
-1.  **Qwen 2.5 (32B/72B)**: Excelente para razonamiento lógico y generación de código TypeScript/React.
-2.  **Llama 3.1 / 3.2 (8B/70B)**: Versatilidad total para tareas de documentación y scripts rápidos.
-3.  **Mistral Small / NeMo**: Optimizado para velocidad extrema en scaffolding.
-4.  **DeepSeek-Coder-V2**: Especialista en algoritmos y optimización Big-O.
-5.  **Gemma 2 (9B/27B)**: Gran comprensión de instrucciones de seguridad y OWASP.
-6.  **Ministral 3B/8B**: Ideal para sub-agentes de terminal con baja latencia.
-7.  **Phi-3.5**: El modelo "Tiny" más capaz para revisiones de sintaxis rápidas.
-
-## 🔧 Criterios de Selección Ninja
-*   **Complejidad Alta** -> Usar Claude 3.5 Sonnet o DeepSeek-V3.
-*   **UI/UX & Estética** -> Usar GPT-4o o Qwen 2.5 72B.
-*   **Back-end & Logic** -> Usar DeepSeek-Coder o Llama 3.1 70B (Pro).
-*   **Refactorings Simples** -> Usar Gemma 2 o Mistral NeMo.
+Este registro clasifica los modelos de IA según su rol en la arquitectura de Ninja. Incluye los modelos de punta de **Antigravity** (Orquestación) y la lista completa de ejecución en **OpenCode**.
 
 ---
-*Nota: Ninja v3.3 ajusta sus Prompts automáticamente basándose en las capacidades de contexto de estos modelos registrados.*
+
+## 💎 MODELOS DE PUNTA: ANTIGRAVITY (El Nivel Elite)
+Estos modelos son los únicos autorizados para actuar como **Architect / Root** en el Modo 1 y 3. Poseen capacidades de razonamiento ("Thinking") y contexto extendido.
+
+1.  **Claude 4.6 Sonnet (Thinking)**: El estándar de oro para codificación y orquestación masiva.
+2.  **Claude 4.6 Opus (Thinking)**: Máxima capacidad de razonamiento abstracto y resolución de bugs complejos.
+3.  **Gemini 3.1 Pro (High Performance)**: Optimizado para procesar repositorios enteros (Contexto de 1M-2M+).
+4.  **Gemini 3.1 Pro (Low Latency)**: Versión equilibrada para ejecución rápida de planes extensos.
+5.  **Gemini 3 Flash**: Velocidad extrema para verificaciones y QA visual en tiempo real.
+
+---
+
+## ⚡ LISTA COMPLETA DE MODELOS: OPENCODE (Ollama Cloud & Zen)
+Lista literal de modelos registrados para **Sub-Agentes** (Modos 2 y 3). Ninguno ha sido saltado.
+
+### 🌌 Ollama Cloud Registry
+- **deepseek-v3.2**
+- **devstral-small-2:24b**
+- **gemini-3-flash-preview**
+- **gemma3:12b**
+- **gemma3:4b**
+- **gemma3:27b**
+- **glm-4.6**
+- **glm-4.7**
+- **glm-5**
+- **gpt-oss:120b**
+- **gpt-oss:20b**
+- **kimi-k2-thinking**
+- **kimi-k2.5**
+- **kimi-k2:1t**
+- **minimax-m2**
+- **minimax-m2.1**
+- **minimax-m2.5**
+- **minimax-m2.7**
+- **ministral-3:14b**
+- **ministral-3:3b**
+- **ministral-3:8b**
+- **mistral-large-3:675b**
+- **devstral-2:123b**
+- **deepseek-v3.1:671b**
+- **cogito-2.1:671b**
+- **nemotron-3-nano:30b**
+- **nemotron-3-super**
+- **qwen3-coder-next**
+- **qwen3-coder:480b**
+- **qwen3-next:80b**
+- **qwen3-v1:235b**
+- **qwen3-v1:235b-instruct**
+- **qwen3.5:397b**
+- **rnj-1:8b**
+
+### ⛩️ OpenCode Zen Registry (Free Models)
+- **MiMo V2 Omni Free** (OpenCode Zen)
+- **MiniMax M2.5 Free** (OpenCode Zen)
+- **Nemotron 3 Super Free** (OpenCode Zen)
+- **MiMo V2 Pro Free** (OpenCode Zen)
+- **Big Pickle** (OpenCode Zen)
+
+---
+
+## 🧭 GUÍA DE SELECCIÓN NINJA (ESTRICTA)
+Ninja v3.3 ajusta sus parámetros basándose en esta jerarquía:
+
+*   **Paso 1 (Planificación)**: Solo modelos **Antigravity (Sonnet/Opus 4.6 Thinking)**.
+*   **Paso 2 (Delegación)**: El orquestador redacta prompts optimizados para **Qwen3 (480b)** o **Mistral Large 3** si la tarea es de lógica pura.
+*   **Paso 3 (UI/UX Móvil)**: Se sugiere **Gemma 3 (27b)** o **Ministral** por su velocidad y manejo de estilos.
+*   **Paso 4 (Auditoría de Seguridad)**: Se delega a **Llama 3.1** o modelos con **Thinking** (kimi-k2).
+
+---
+*Este registro es la fuente de verdad para la selección automática de modelos en el framework Ninja v3.3.*

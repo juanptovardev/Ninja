@@ -1,6 +1,6 @@
 # 🥷 NINJA — The Ultimate AI Software Engineer Framework
 
-**Versión Actual:** v3.3 (Systematic Expansion)
+**Versión Actual:** v3.2 (3-Mode Architecture)
 
 Ninja es un framework avanzado y prompt maestro que convierte tu entorno de IA en un **Ingeniero de Software Full-Stack (Elite)**. Basado en una biblioteca modular de 130+ repositorios de estándar industrial, Ninja programa, audita y optimiza proyectos a velocidad de la luz.
 

@@ -1,4 +1,4 @@
-# 🥷 NINJA v3.2 — MODO 2: OPENCODE (SOLO)
+# 🥷 NINJA v3.4 — MODO 2: OPENCODE (SOLO)
 
 ## 📌 Descripción del Modo
 El **Modo 2** es el "Ejército Autónomo". Aquí, no usamos el orquestador principal (Antigravity), sino que invocamos directamente a **Sub-Agentes Expertos** mediante OpenCode. 

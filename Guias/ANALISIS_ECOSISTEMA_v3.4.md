@@ -1,4 +1,4 @@
-# 📓 ANÁLISIS DE ECOSISTEMA NINJA: PROFUNDIDAD E INTEGRACIÓN (v3.3)
+# 📓 ANÁLISIS DE ECOSISTEMA NINJA: PROFUNDIDAD E INTEGRACIÓN (v3.4)
 
 Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja está diseñado para operar nativamente en el workspace de tu sistema operativo. Ha sido actualizado para reflejar los estándares 3.3.
 
@@ -19,7 +19,7 @@ Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja est
 ---
 
 ### 🥷 FASE 2: Integración de Skills de Ingeniería (11-20)
-11. **UI Engineering Premium:** Imposición del uso de utilidades avanzadas (vía v3.3 Herramientas) en vez de CSS plano y aburrido.
+11. **UI Engineering Premium:** Imposición del uso de utilidades avanzadas (vía v3.4 Herramientas) en vez de CSS plano y aburrido.
 12. **Algoritmia Pura:** Resolución matemática estricta apoyada en los `lib/algorithms` para Big-O notation performance.
 13. **Security First (OWASP R1-R12):** Enforce en cada commit; Ninja SecOps detiene procesos si detecta inyecciones de dependencias dudosas.
 14. **Contratos typesafe:** Imposición de arquitecturas tRPC y Zod Schema generation en el paso a paso.
@@ -44,9 +44,9 @@ Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja est
 ### 🤝 FASE 4: Orquestación Sublime (31-40)
 31. **Role Switching Fluido:** Ninja cambia mentalmente de Architect a SecOps sin perder los hilos de las variables pasadas.
 32. **Conflict Resolution Local:** Agilización para resolver conflictos de Merge sin asustar al LLM.
-33. **Prompt Generation:** Ninja 3.3 no programa en Modo 3, redacta Prompts que parecen manuales nucleares para modelos gratuitos.
+33. **Prompt Generation:** Ninja 3.4 no programa en Modo 3, redacta Prompts que parecen manuales nucleares para modelos gratuitos.
 34. **Limitación de Modelos Inferiores:** Con un buen Prompt (Few-shot, CoT), Ninja hace que un modelo de parámetro 8B razone como un GPT-4o para tareas atómicas.
 35. **Multi-Tenant / Microservices Ready:** Diseño conceptual listo para dividir rutas de Hono en micro-workers de Cloudflare.
 
 ---
-*Fin del Análisis Sistémico de Ecosistema — Ninja v3.3 PRO.*
+*Fin del Análisis Sistémico de Ecosistema — Ninja v3.4 PRO.*

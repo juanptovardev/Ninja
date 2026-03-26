@@ -1,4 +1,4 @@
-# 🥷 NINJA v3.2 — MODO 1: ANTIGRAVITY (SOLO)
+# 🥷 NINJA v3.4 — MODO 1: ANTIGRAVITY (SOLO)
 
 ## 📌 Descripción del Modo
 El **Modo 1** es la experiencia de Ingeniería Autónoma Pura. En este entorno, Antigravity (tu IDE/Entorno Principal con el modelo de élite) asume la responsabilidad total: planifica, escribe el código, purifica, escanea y despliega sin requerir terminal externa.

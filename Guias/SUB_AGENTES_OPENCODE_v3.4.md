@@ -1,6 +1,6 @@
-# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v3.3)
+# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v3.4)
 
-Esta guía rescata y evoluciona el sistema de delegación de Ninja. Aunque Ninja v3.3 puede operar de forma autónoma (Modo 1), su verdadero poder se libera al orquestar un equipo de **Sub-Agentes Especializados** en terminales concurrentes de OpenCode (Modos 2 y 3).
+Esta guía rescata y evoluciona el sistema de delegación de Ninja. Aunque Ninja v3.4 puede operar de forma autónoma (Modo 1), su verdadero poder se libera al orquestar un equipo de **Sub-Agentes Especializados** en terminales concurrentes de OpenCode (Modos 2 y 3).
 
 ---
 
@@ -30,12 +30,12 @@ Para maximizar la ventana de contexto de modelos gratuitos (Qwen, DeepSeek), Nin
 
 ### 5. Ninja Agentic (The AI Integrator & Learner)
 - **Carga Cognitiva**: `.agents/memory/` + `lib/snippets`.
-- **Misión v3.3**: Es el encargado de integrar RAG, Vercel AI SDK, y sobre todo, ejecutar el script `memory_capture.sh` para cristalizar lo que el equipo aprendió en la sesión en aprendizajes permanentes.
+- **Misión v3.4**: Es el encargado de integrar RAG, Vercel AI SDK, y sobre todo, ejecutar el script `memory_capture.sh` para cristalizar lo que el equipo aprendió en la sesión en aprendizajes permanentes.
 - **Comando de Invocación**: `/ninja-ai` o `/ninja-absorb`.
 
 ---
 
-## 🌊 Flujos de Trabajo Actualizados (Workflows v3.3)
+## 🌊 Flujos de Trabajo Actualizados (Workflows v3.4)
 
 ### 🚀 Flujo A: El Scaffolding Inteligente
 Usado para iniciar repositorios masivos en 3 minutos.
@@ -59,7 +59,7 @@ graph TD
 ---
 
 ## 💡 Consejos de Rendimiento para Modelos Gratuitos (Modo 2)
-Para aprovechar la nueva Arquitectura v3.3 en OpenCode:
+Para aprovechar la nueva Arquitectura v3.4 en OpenCode:
 1. **No satures el contexto**: Si el UI Sub-Agent está trabajando, no le cargues el archivo de base de datos.
 2. **Prompts Restrictivos**: Usa la instrucción `"Extrae el patrón de lib/snippets y úsalo, no inventes código"`. Esto elimina la alucinación de los modelos pequeños.
 3. **Cierre de Ciclo Seguro**: Antes de hacer Commit, siempre pasa el código por el SecOps Sub-Agent. 

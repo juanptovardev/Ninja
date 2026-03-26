@@ -1,6 +1,6 @@
 # ⌨️ COMANDOS Y ESTRUCTURA: MODO HÍBRIDO (v3 - Orquestación Total)
 
-Esta es la guía operativa para el **Modo 3** (La cúspide de Ninja v3.3).
+Esta es la guía operativa para el **Modo 3** (La cúspide de Ninja v3.4).
 
 ## 🚀 Comandos del Orquestador (Antigravity)
 

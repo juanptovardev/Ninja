@@ -1,4 +1,4 @@
-# 🤖 REGISTRO MAESTRO DE MODELOS (NINJA v3.3)
+# 🤖 REGISTRO MAESTRO DE MODELOS (NINJA v3.4)
 
 Este registro clasifica los modelos de IA según su rol en la arquitectura de Ninja. Incluye los modelos de punta de **Antigravity** (Orquestación) y la lista completa de ejecución en **OpenCode**.
 
@@ -64,7 +64,7 @@ Lista literal de modelos registrados para **Sub-Agentes** (Modos 2 y 3). Ninguno
 ---
 
 ## 🏗️ VERTICALES DE ESPECIALIDAD (BACKEND & CODING)
-Ninja v3.3 clasifica los modelos según su "fuerza bruta" en lógica y codificación estructurada:
+Ninja v3.4 clasifica los modelos según su "fuerza bruta" en lógica y codificación estructurada:
 
 ### ⚙️ Vertical 1: Lógica de Backend & APIs (Hono / Express / Node)
 *   **Fuerza**: Modelos capaces de manejar middleware, ciclos de vida de request/response y validaciones Zod.
@@ -90,7 +90,7 @@ Ninja v3.3 clasifica los modelos según su "fuerza bruta" en lógica y codificac
 ---
 
 ## 🧭 GUÍA DE SELECCIÓN NINJA (ESTRICTA)
-Ninja v3.3 ajusta sus parámetros basándose en esta jerarquía:
+Ninja v3.4 ajusta sus parámetros basándose en esta jerarquía:
 
 *   **Paso 1 (Planificación)**: Solo modelos **Antigravity (Sonnet/Opus 4.6 Thinking)**.
 *   **Paso 2 (Delegación)**: El orquestador redacta prompts optimizados para **Qwen3 (480b)** o **Mistral Large 3** si la tarea es de lógica pura.
@@ -98,4 +98,4 @@ Ninja v3.3 ajusta sus parámetros basándose en esta jerarquía:
 *   **Paso 4 (Auditoría de Seguridad)**: Se delega a **Llama 3.1** o modelos con **Thinking** (kimi-k2).
 
 ---
-*Este registro es la fuente de verdad para la selección automática de modelos en el framework Ninja v3.3.*
+*Este registro es la fuente de verdad para la selección automática de modelos en el framework Ninja v3.4.*

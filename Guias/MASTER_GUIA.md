@@ -1,7 +1,7 @@
-# 🥷 NINJA — MASTER USAGE GUIDE v3.2 (ACTIVE)
+# 🥷 NINJA — MASTER USAGE GUIDE v3.3 (ACTIVE)
 
-## 🆕 What's New in v3.2
-The shift to **3-Mode Architecture**. Ninja is no longer just a code generator; it is a **Prompt Engineer** and **Orchestrator** capable of delegating heavy tasks to free models effectively.
+## 🆕 What's New in v3.3
+The shift to **3-Mode Architecture** and **Systematic Expansion**. Ninja is a **Prompt Engineer**, an **Orchestrator**, and a system with **Perpetual Memory**.
 
 ### 🌐 LOS 3 MODOS DE USO
 

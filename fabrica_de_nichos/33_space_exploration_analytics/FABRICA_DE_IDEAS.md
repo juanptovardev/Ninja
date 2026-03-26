@@ -4,9 +4,9 @@
 ## ⚡ Atajos Ninja
 Para usar este motor con el agente Ninja, ejecuta los siguientes comandos en el chat:
 
-- `/niche-ideate space_exploration_analytics [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
-- `/niche-prd space_exploration_analytics [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
-- `/niche-evaluate space_exploration_analytics [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
+- `/niche-ideate 33_space_exploration_analytics [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
+- `/niche-prd 33_space_exploration_analytics [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
+- `/niche-evaluate 33_space_exploration_analytics [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
 
 ## 🧠 Arquitectura de Prompts Base (Ejemplo)
 Para replicarse manualmente o en APIs:

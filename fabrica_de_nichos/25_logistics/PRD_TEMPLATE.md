@@ -6,12 +6,13 @@
 **UR:** 7/10
 **Tecnología:** Ninja Architecture v3.4
 
-## 2. 🚀 Objetivo Inicial
-Desarrollar el núcleo base descrito en la 'Idea 1' de `IDEAS.md` para validar la recepción del mercado y la escalabilidad del backend.
+## 2. 🚀 Aplicación Práctica
+**Objetivo Inicial:** "Ruteador de Última Milla (Offline First)". MVP para PYMES de transporte urbano.
+**Componentes Base:**
+- PWA con Service Workers rígidos.
+- Leaflet o Mapbox GL JS para render de mapa rápido en local sin recargar.
+- PRD Grado Simple: Flujo centrado puramente en la UI del chofer.
 
-## 3. 🧩 Componentes Base
-- Repositorio y Monorepo setup.
-- Interfaz gráfica basada en Tailwind 4.
-- Orquestación de datos mediante subagentes OpenCode.
-
-*Para detalles de arquitectura, invocar `/niche-expand` usando la plantilla correspondiente.*
+## 3. 🧩 Siguientes Pasos
+- Invocar `/niche-ideate` si las ideas actuales necesitan pivotarse.
+- Generar el plan de implementación de los Web Workers y Serverless.

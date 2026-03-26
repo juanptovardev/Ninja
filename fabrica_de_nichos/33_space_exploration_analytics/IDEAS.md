@@ -1,11 +1,11 @@
 # 💡 Space Exploration Analytics - 5 Ideas Élite
 > **Esfuerzo Técnico:** + | **User Relevance:** 5/10
 
-1. **Plataforma de Ecosistema Integrado**: Extender las capacidades básicas hacia un super-app del nicho, unificando varios fragmentos del mercado en una sola interfaz.
-2. **Dashboard Predictivo con IA**: Eliminar la analítica reactiva e implementar un panel que le diga al usuario qué va a pasar mañana basado en los datos de hoy.
-3. **Plataforma de Automatización B2B**: Vender picos y palas. En vez de apuntar al consumidor final, crear el software que gestiona el negocio para los profesionales locales del nicho.
-4. **Marketplace de Micro-Servicios Específicos**: Conectar la demanda ultra-especializada de este nicho con proveedores de nicho, usando matching algorítmico y escrow contracts.
-5. **Solución API-First / Headless**: Proveer el motor de procesamiento para que otras empresas construyan su UI por encima, asumiendo el rol tecnológico subyacente.
+1. **Monitor Educativo de Constelaciones Starlink**: Dashboard interactivo WebGL que lee las APIs públicas de las órbitas y te muestra dónde está cada satélite sobre tu ciudad ahora mismo.
+2. **Dashboard de Residuos Espaciales (Debris Tracker)**: Visualizador de los miles de fragmentos de basura espacial para empresas de seguros y operadoras de telecomunicación satelital.
+3. **Analizador Asteroidal Predictivo**: Uso de IA en datos abiertos de la NASA para identificar y catalogar espectros minerales de asteroides buscando posibles oportunidades de minería espacial futura.
+4. **Calculador de Ventanas de Lanzamiento Orbital**: UI técnica que evalúa clima, rotación y destinos (Luna, Marte), dándole opciones gráficas claras a simuladores o centros universitarios de astrofísica.
+5. **Generador de Telemetría Biológica de Astronautas**: App que simularía y mostraría datos biométricos y dosis de radiación recibida, para estudios académicos y divulgación científica con D3.js.
 
 ---
 *Fábrica de Nichos Ninja v3.4*

@@ -6,12 +6,13 @@
 **UR:** 8/10
 **Tecnología:** Ninja Architecture v3.4
 
-## 2. 🚀 Objetivo Inicial
-Desarrollar el núcleo base descrito en la 'Idea 1' de `IDEAS.md` para validar la recepción del mercado y la escalabilidad del backend.
+## 2. 🚀 Aplicación Práctica
+**Objetivo Inicial:** "Headless POS para Dark Kitchens".
+**Componentes Base:**
+- Real-Time Data Streaming (Ably) para evitar latencia en los pedidos.
+- PWA persistente para resistir cortes de internet en la cocina.
+- Arquitectura de colas FIFO en backend (Redis).
 
-## 3. 🧩 Componentes Base
-- Repositorio y Monorepo setup.
-- Interfaz gráfica basada en Tailwind 4.
-- Orquestación de datos mediante subagentes OpenCode.
-
-*Para detalles de arquitectura, invocar `/niche-expand` usando la plantilla correspondiente.*
+## 3. 🧩 Siguientes Pasos
+- Invocar `/niche-ideate` si las ideas actuales necesitan pivotarse.
+- Generar el plan de implementación de los Web Workers y Serverless.

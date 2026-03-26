@@ -1,11 +1,11 @@
 # 💡 LegalTech - 5 Ideas Élite
 > **Esfuerzo Técnico:** ++ | **User Relevance:** 7.5/10
 
-1. **Plataforma de Ecosistema Integrado**: Extender las capacidades básicas hacia un super-app del nicho, unificando varios fragmentos del mercado en una sola interfaz.
-2. **Dashboard Predictivo con IA**: Eliminar la analítica reactiva e implementar un panel que le diga al usuario qué va a pasar mañana basado en los datos de hoy.
-3. **Plataforma de Automatización B2B**: Vender picos y palas. En vez de apuntar al consumidor final, crear el software que gestiona el negocio para los profesionales locales del nicho.
-4. **Marketplace de Micro-Servicios Específicos**: Conectar la demanda ultra-especializada de este nicho con proveedores de nicho, usando matching algorítmico y escrow contracts.
-5. **Solución API-First / Headless**: Proveer el motor de procesamiento para que otras empresas construyan su UI por encima, asumiendo el rol tecnológico subyacente.
+1. **Escáner Clínico de Contratos B2B**: Usar Vector Search nativo para encontrar cláusulas abusivas en contratos de 100 páginas en segundos, subrayando el riesgo en rojo.
+2. **Generador Dinámico de NDA y Acuerdos de Empleado**: Workflow builder que crea contratos legally binding al vuelo respondiendo 5 preguntas simples; generación de PDFs masivos vía Web Workers.
+3. **Plataforma de Disputas P2P Asistida por IA**: Panel donde dos partes con discrepancias financieras suben su evidencia, y una IA imparcial propone acuerdos basados en precedentes locales.
+4. **Gestor de Compliance Corporativo Multi-País**: Dashboard que avisa a los departamentos de RRHH si su nueva política infringe leyes laborales de las filiales en España vs México.
+5. **Diligencia Debida (Due Diligence) Automática**: Rastreador masivo web (Legal OSINT) que revisa demandas pasadas, boletines oficiales y registros comerciales de cualquier socio que se pretenda ingresar a la empresa.
 
 ---
 *Fábrica de Nichos Ninja v3.4*

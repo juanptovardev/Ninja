@@ -1,11 +1,11 @@
 # 💡 Smart Motorcycle Customizer - 5 Ideas Élite
 > **Esfuerzo Técnico:** ++ | **User Relevance:** 7.5/10
 
-1. **Plataforma de Ecosistema Integrado**: Extender las capacidades básicas hacia un super-app del nicho, unificando varios fragmentos del mercado en una sola interfaz.
-2. **Dashboard Predictivo con IA**: Eliminar la analítica reactiva e implementar un panel que le diga al usuario qué va a pasar mañana basado en los datos de hoy.
-3. **Plataforma de Automatización B2B**: Vender picos y palas. En vez de apuntar al consumidor final, crear el software que gestiona el negocio para los profesionales locales del nicho.
-4. **Marketplace de Micro-Servicios Específicos**: Conectar la demanda ultra-especializada de este nicho con proveedores de nicho, usando matching algorítmico y escrow contracts.
-5. **Solución API-First / Headless**: Proveer el motor de procesamiento para que otras empresas construyan su UI por encima, asumiendo el rol tecnológico subyacente.
+1. **Configurador Híbrido Web/Físico de 60FPS**: El cliente entra a e-commerce, cambia el diseño del tanque, el escape, y el asiento en 3D en tiempo real (PWA Offline Orchestration), lanzando un PDF técnico directo a la fábrica.
+2. **Dashboard de Telemetría Pro-Biker (Edge Analytics)**: Una moto conectada envía telemetría de frenadas, ángulo de inclinación de curvas y velocidad a un panel web donde un coach IA le dice dónde pudo acelerar más temprano.
+3. **Marketplace C2C de Repuestos Validados por IA**: Los vendedores suben fotos de repuestos usados; la IA (Semantic Search Integration) detecta si tiene óxido, desgaste, o si es la referencia exacta que busca el comprador, previniendo fraudes.
+4. **Calculador de Suspensión Personalizado**: El usuario mete su peso, estilo de manejo y motos que ha tenido; el sistema cruza matemáticas (Rust-based Web Workers) y recomienda la calibración exacta de clicks de rebote de la suspensión.
+5. **Red Social de Rutas Dinámicas (GPS In-Browser)**: Trazador de trayectos curvos que procesa datos de clima y elevación masiva en el mapa web, sincronizable con cascos Bluetooth con latencia menor a 1s.
 
 ---
 *Fábrica de Nichos Ninja v3.4*

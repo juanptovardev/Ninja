@@ -6,12 +6,13 @@
 **UR:** 9/10
 **Tecnología:** Ninja Architecture v3.4
 
-## 2. 🚀 Objetivo Inicial
-Desarrollar el núcleo base descrito en la 'Idea 1' de `IDEAS.md` para validar la recepción del mercado y la escalabilidad del backend.
+## 2. 🚀 Aplicación Práctica
+**Objetivo Inicial:** Crear el "Algoritmo de Tasación Predictiva Inmobiliaria". El MVP presentará un dashboard de mapa de calor usando TanStack Virtualization para manejo de millones de puntos de datos.
+**Componentes Base:**
+- Base de datos vectorial (Pinecone) para matching de propiedades.
+- Panel UI con Tailwind 4 (Zero-Runtime) y estado global.
+- Web Vitals Guard para asegurar que la carga del mapa no exceda 1.2s.
 
-## 3. 🧩 Componentes Base
-- Repositorio y Monorepo setup.
-- Interfaz gráfica basada en Tailwind 4.
-- Orquestación de datos mediante subagentes OpenCode.
-
-*Para detalles de arquitectura, invocar `/niche-expand` usando la plantilla correspondiente.*
+## 3. 🧩 Siguientes Pasos
+- Invocar `/niche-ideate` si las ideas actuales necesitan pivotarse.
+- Generar el plan de implementación de los Web Workers y Serverless.

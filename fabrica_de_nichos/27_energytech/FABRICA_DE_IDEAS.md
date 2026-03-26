@@ -4,9 +4,9 @@
 ## ⚡ Atajos Ninja
 Para usar este motor con el agente Ninja, ejecuta los siguientes comandos en el chat:
 
-- `/niche-ideate energytech [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
-- `/niche-prd energytech [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
-- `/niche-evaluate energytech [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
+- `/niche-ideate 27_energytech [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
+- `/niche-prd 27_energytech [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
+- `/niche-evaluate 27_energytech [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
 
 ## 🧠 Arquitectura de Prompts Base (Ejemplo)
 Para replicarse manualmente o en APIs:

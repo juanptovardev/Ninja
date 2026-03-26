@@ -4,9 +4,9 @@
 ## ⚡ Atajos Ninja
 Para usar este motor con el agente Ninja, ejecuta los siguientes comandos en el chat:
 
-- `/niche-ideate legaltech [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
-- `/niche-prd legaltech [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
-- `/niche-evaluate legaltech [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
+- `/niche-ideate 15_legaltech [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
+- `/niche-prd 15_legaltech [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
+- `/niche-evaluate 15_legaltech [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
 
 ## 🧠 Arquitectura de Prompts Base (Ejemplo)
 Para replicarse manualmente o en APIs:

@@ -1,11 +1,11 @@
 # 💡 AI Art Production Studio - 5 Ideas Élite
 > **Esfuerzo Técnico:** +++ | **User Relevance:** 9.5/10
 
-1. **Plataforma de Ecosistema Integrado**: Extender las capacidades básicas hacia un super-app del nicho, unificando varios fragmentos del mercado en una sola interfaz.
-2. **Dashboard Predictivo con IA**: Eliminar la analítica reactiva e implementar un panel que le diga al usuario qué va a pasar mañana basado en los datos de hoy.
-3. **Plataforma de Automatización B2B**: Vender picos y palas. En vez de apuntar al consumidor final, crear el software que gestiona el negocio para los profesionales locales del nicho.
-4. **Marketplace de Micro-Servicios Específicos**: Conectar la demanda ultra-especializada de este nicho con proveedores de nicho, usando matching algorítmico y escrow contracts.
-5. **Solución API-First / Headless**: Proveer el motor de procesamiento para que otras empresas construyan su UI por encima, asumiendo el rol tecnológico subyacente.
+1. **Generador Masivo de Assets para Agencias**: Plataforma donde un Director de Arte crea un moodboard, y un enjambre de subagentes OpenCode genera 500 variaciones de posts de redes sociales listos para publicar.
+2. **Editor de Nodos "Canvas-Based" estilo ComfyUI Web**: Constructor de pipelines de IA generativa totalmente en el navegador, compitiendo con herramientas desktop complejas pero con la accesibilidad de una URL.
+3. **Entrenador de Modelos Lora Privados (SaaS)**: Interfaz donde empresas suben sus catálogos (ej. muebles) y la plataforma auto-entrena un modelo LoRA para que el equipo de marketing genere fotos "lifestyle" sin sesiones fotográficas.
+4. **Sistema de Versionado de Prompts (Git-for-Art)**: Herramienta corporativa que guarda el historial exacto de prompts, semillas y parámetros usados para generar un asset exitoso, permitiendo ramificar el trabajo creativo de un equipo.
+5. **Auto-Animador CSS Scroll-Driven**: Tomas una imagen estática generada por IA, y el sistema extrae las capas y te exporta el código nativo para lograr un efecto parallax cinemático al scrollear en la web.
 
 ---
 *Fábrica de Nichos Ninja v3.4*

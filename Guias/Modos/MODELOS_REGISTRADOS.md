@@ -63,6 +63,32 @@ Lista literal de modelos registrados para **Sub-Agentes** (Modos 2 y 3). Ninguno
 
 ---
 
+## 🏗️ VERTICALES DE ESPECIALIDAD (BACKEND & CODING)
+Ninja v3.3 clasifica los modelos según su "fuerza bruta" en lógica y codificación estructurada:
+
+### ⚙️ Vertical 1: Lógica de Backend & APIs (Hono / Express / Node)
+*   **Fuerza**: Modelos capaces de manejar middleware, ciclos de vida de request/response y validaciones Zod.
+*   **Ranking**:
+    1.  **Claude 4.6 Sonnet (Thinking)**: Inigualable en arquitectura limpia y DRY (Don't Repeat Yourself).
+    2.  **DeepSeek-V3**: El mejor balance entre velocidad y lógica de negocio compleja.
+    3.  **Qwen 2.5 Coder (72B)**: El especialista en JS/TS moderno para controladores robustos.
+
+### 🗄️ Vertical 2: Estructuras de Datos & DB (Drizzle / Prisma / SQL)
+*   **Fuerza**: Transpiler de esquemas y generación de migraciones seguras.
+*   **Ranking**:
+    1.  **Claude 4.6 Opus (Thinking)**: Máxima fiabilidad en relaciones Uno-a-Muchos y Mucho-a-Muchos.
+    2.  **Llama 3.1 70B**: Sólido en la generación de sentencias SQL puras y optimización de índices.
+    3.  **Gemini 3.1 Pro (High)**: Capaz de leer una base de datos entera de 100 tablas y sugerir normalización.
+
+### ⛓️ Vertical 3: Algoritmia & Performance (Big-O / BullMQ / Redis)
+*   **Fuerza**: Reducción de complejidad y gestión de colas asíncronas.
+*   **Ranking**:
+    1.  **DeepSeek-Coder-V2**: Entrenado específicamente en competitividad algorítmica.
+    2.  **Qwen3-Coder-Next**: El state-of-the-art en optimización de bucles y gestión de memoria.
+    3.  **Mistral Large 3**: Excelente para orquestación de servicios paralelos y escalabilidad.
+
+---
+
 ## 🧭 GUÍA DE SELECCIÓN NINJA (ESTRICTA)
 Ninja v3.3 ajusta sus parámetros basándose en esta jerarquía:
 

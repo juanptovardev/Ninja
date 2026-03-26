@@ -1,53 +1,17 @@
-# 🏭 Fábrica de Ideas: [NICHO]
+# 🏭 Fábrica de Ideas: TravelTech
+> Motor generativo para expandir sub-nichos o pivotar proyectos dentro de TravelTech.
 
-## Comandos Rápidos para Generar Nuevas Ideas en este Nicho
+## ⚡ Atajos Ninja
+Para usar este motor con el agente Ninja, ejecuta los siguientes comandos en el chat:
 
-### /idea-simple
-```
-"Genera 5 ideas de productos/herramientas para [NICHO] enfocadas en [ENFOQUE].
-Cada idea: Nombre, Problema (1 línea), Solución (1 línea), UR estimado (1-10).
-Prioriza ideas con UR > 8."
-```
+- `/niche-ideate traveltech [VARIABLE]` : Genera 5 nuevas ideas usando el marco de referencia de la Guía Maestra y la UR. Puedes pasar variables como "Enfoque Enterprise", "Enfoque Móvil", "Enfocado a Generación Z", etc.
+- `/niche-prd traveltech [NUMERO_IDEA]` : Toma una idea del `IDEAS.md` y redacta un PRD completo utilizando las plantillas en `lib/templates/`.
+- `/niche-evaluate traveltech [IDEA_PERSONAL]` : Evalúa una idea que se te ocurra dándote un Score (+/++/+++) y un User Relevance (UR) estimado.
 
-### /idea-deep
+## 🧠 Arquitectura de Prompts Base (Ejemplo)
+Para replicarse manualmente o en APIs:
+```text
+Eres un Experto Arquitecto de Producto Ninja v3.4. Genera 5 ideas hiper-especializadas para el nicho de TravelTech. 
+Aplica la regla de UR (User Relevance) apuntando a alcanzar valores >8/10. Combina capacidades de IA generativa, bases de datos edge y rendering ultrarrápido.
+Devuelve el resultado en Markdown estricto.
 ```
-"Actúa como un CTO experto en [NICHO].
-Genera 5 ideas de productos que resuelvan los top 5 dolores del sector.
-Para cada una genera un mini-PRD con: Nombre, Problema, Solución, Stack Ninja (Next.js/React/Hono), 5 MVP Features, UR."
-```
-
-### /idea-clone
-```
-"Investiga las funcionalidades principales de [COMPETIDOR] en el sector [NICHO].
-Lista sus 10 features principales y para cada una:
-1. Describe qué hace exactamente
-2. Propón una versión mejorada con IA
-3. Indica el stack técnico Ninja para implementarla
-4. Asigna complejidad (+/++/+++)"
-```
-
-### /idea-pivot
-```
-"Toma las 5 ideas actuales de [NICHO] y genera una variación para otro sector.
-Ejemplo: La idea X de HealthTech aplicada a PetTech.
-Para cada pivot: Nombre nuevo, Adaptación, Stack, UR estimado."
-```
-
-### /idea-expand
-```
-"Toma la idea [NÚMERO] de este nicho y expándela a un PRD Profesional completo.
-Usa la plantilla PRD_TEMPLATE_PRO.md como base.
-Incluye: Arquitectura, MVP Features (10), KPIs, Timeline, Competidores."
-```
-
----
-
-## 🔄 Workflow de Generación Completo
-1. Ejecutar `/idea-simple` para brainstorming rápido
-2. Filtrar ideas con UR > 7.5
-3. Ejecutar `/idea-deep` sobre las sobrevivientes
-4. Seleccionar top 3 y ejecutar `/idea-expand`
-5. Pasar los PRDs a ejecución con Ninja v3.4
-
----
-*Usa estos presets en cualquier modelo IA. Ninja v3.4 — Fábrica de Ideas Automatizada.*

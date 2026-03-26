@@ -1,6 +1,6 @@
-# 🥷 NINJA — ACTIVATOR WORKFLOW v3.1
+# 🥷 NINJA — ACTIVATOR WORKFLOW v3.4
 ---
-description: Ninja AI Activator — carga el perfil de ingeniero de software profesional y funciones v3.1
+description: Ninja AI Activator — carga el perfil de ingeniero de software profesional y funciones v3.4
 ---
 
 ## 🚀 Comandos de Activación
@@ -8,7 +8,7 @@ description: Ninja AI Activator — carga el perfil de ingeniero de software pro
 1. **Perfil Ninja** (`/ninja`)
    - Carga todas las reglas R1-R12 y Skills.
    
-2. **Auto-Scaffolding v3.1** (`/ninja-init [tipo]`)
+2. **Auto-Scaffolding v3.4** (`/ninja-init [tipo]`)
 // turbo
    - Acción: `mkdir -p src/components src/lib src/hooks src/app && cp -r .agents/ ./.agents_backup`
    

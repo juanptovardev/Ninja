@@ -1,27 +1,23 @@
 # 🥷 NINJA — The Ultimate AI Software Engineer Framework
 
-**Versión Actual:** v3.4 "Niche Dominator" (3-Mode Architecture & Industrial Niche Prospection)
+**Versión Actual:** v3.4 (Niche Factory & Systematic Expansion)
 
 Ninja es un framework avanzado y prompt maestro que convierte tu entorno de IA en un **Ingeniero de Software Full-Stack (Elite)**. Basado en una biblioteca modular de 130+ repositorios de estándar industrial, Ninja programa, audita y optimiza proyectos a velocidad de la luz.
 
-## 🚀 Arquitectura de 3 Modos + Fábrica de Nichos (v3.4)
+## 🚀 Arquitectura de 3 Modos (v3.4)
 
 Ninja ha evolucionado de ser un simple "agente" a un orquestador capaz de adaptarse al presupuesto y el entorno del usuario:
 
-1. **Modo Antigravity (Elite Solo)**: Usa Ninja con Claude Sonnet/Opus 4.6 Thinking o Gemini 3.1 Pro para autonomía total. Ninja lee el repositorio, planea, escribe los archivos y hace QA visual de forma desatendida.
+1. **Modo Antigravity (Elite Solo)**: Usa Ninja en Claude 3.5 Sonnet / GPT-4o para autonomía total. Ninja lee el repositorio, planea, escribe los archivos y hace QA visual de forma desatendida.
 2. **Modo OpenCode (Terminal Solo)**: Emplea modelos gratuitos y veloces (DeepSeek, Qwen3) bajo comandos atómicos y contexto delimitado usando la librería local `lib/`.
 3. **Modo Híbrido (Orquestación Suprema)**: Ninja actúa como el Arquitecto (en Antigravity) y diseña la estructura generando **Prompts Súper-Optimizados**. El desarrollador copia esos prompts hacia terminales de OpenCode para ejecución concurrente. Ninja verifica al final.
-
-### 🏭 Nuevo: Fábrica de Nichos (v3.4)
-El sistema industrial de prospección tecnológica con 35 nichos de mercado, 175+ ideas PRD-ready, templates profesionales y atajos de generación automatizada.
 
 ## 📂 Estructura del Repositorio
 
 - **`.agents/`**: El cerebro de Ninja (Reglas, Habilidades de Frameworks modernos y Memoria Técnica).
 - **`lib/`**: Herramientas extraídas puras de los repositorios origen (Algoritmos, Clean Code, OWASP, Snippets). Listas para inyección directa a tu código sin internet.
 - **`Guias/Modos/`**: Documentación técnica detallada de cómo explotar cada uno de los 3 Modos.
-- **`fabrica_de_nichos/`**: **NUEVO** — 35 carpetas de nicho con 5 ideas elite cada una, plantillas PRD y fábricas de ideas automatizadas.
-- **`versions/`**: Historial de versiones y evolución de Ninja (v1.0 hasta v3.4).
+- **`versions/`**: Historial de versiones y evolución de Ninja (v1.0 hasta v3.1).
 - **`NINJA.md`**: El Prompt Maestro. Cárgalo en tu IDE / Plataforma de IA para invocar el sistema.
 
 ## ⚡ Instalación y Uso
@@ -31,4 +27,4 @@ El sistema industrial de prospección tecnológica con 35 nichos de mercado, 175
 3. Sigue las instrucciones interactivas: Ninja te preguntará en qué modo operarán y ajustará su inteligencia al instante.
 
 ---
-**Ninja Framework v3.4** — *Code clean, modular and production ready. If it doesn't scale, it's not Ninja.*
+**Ninja Framework** — *Code clean, modular and production ready. If it doesn't scale, it's not Ninja.*

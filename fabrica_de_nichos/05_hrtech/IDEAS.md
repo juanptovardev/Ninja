@@ -1,7 +1,11 @@
-# 💎 NICHO 05: HRTech | +++ | UR: 8/10
-## 5 Ideas Elite
-1. **AI Resume Screener** (+++) — Filtro de CVs con IA que busca "potencial oculto" más allá de keywords. Stack: Vercel AI SDK + Pinecone + PostgreSQL.
-2. **Culture Fit Predictor** (+++) — Test gamificado que mide compatibilidad cultural con IA predictiva. Stack: React 19 + TensorFlow.js + D3.js.
-3. **Onboarding Automation Hub** (++) — Sistema de onboarding con checklists dinámicos, firma digital y training adaptativo. Stack: Next.js + BullMQ + DocuSign API.
-4. **Employee Pulse Monitor** (++) — Encuestas de clima laboral en tiempo real con análisis de sentimiento IA. Stack: Vercel AI SDK + D3.js + PostgreSQL.
-5. **Salary Benchmark Engine** (+) — Comparador de salarios con Data scraping anonimizado del mercado local. Stack: Hono + Drizzle + Redis + D3.js.
+# 💡 HRTech - 5 Ideas Élite
+> **Esfuerzo Técnico:** +++ | **User Relevance:** 8/10
+
+1. **Plataforma de Ecosistema Integrado**: Extender las capacidades básicas hacia un super-app del nicho, unificando varios fragmentos del mercado en una sola interfaz.
+2. **Dashboard Predictivo con IA**: Eliminar la analítica reactiva e implementar un panel que le diga al usuario qué va a pasar mañana basado en los datos de hoy.
+3. **Plataforma de Automatización B2B**: Vender picos y palas. En vez de apuntar al consumidor final, crear el software que gestiona el negocio para los profesionales locales del nicho.
+4. **Marketplace de Micro-Servicios Específicos**: Conectar la demanda ultra-especializada de este nicho con proveedores de nicho, usando matching algorítmico y escrow contracts.
+5. **Solución API-First / Headless**: Proveer el motor de procesamiento para que otras empresas construyan su UI por encima, asumiendo el rol tecnológico subyacente.
+
+---
+*Fábrica de Nichos Ninja v3.4*

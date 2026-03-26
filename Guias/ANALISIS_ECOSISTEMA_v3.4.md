@@ -1,6 +1,6 @@
 # 📓 ANÁLISIS DE ECOSISTEMA NINJA: PROFUNDIDAD E INTEGRACIÓN (v3.4)
 
-Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja está diseñado para operar nativamente en el workspace de tu sistema operativo. Ha sido actualizado para reflejar los estándares 3.3.
+Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja está diseñado para operar nativamente en el workspace de tu sistema operativo. Ha sido actualizado para reflejar los estándares 3.4.
 
 ---
 
@@ -23,14 +23,14 @@ Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja est
 12. **Algoritmia Pura:** Resolución matemática estricta apoyada en los `lib/algorithms` para Big-O notation performance.
 13. **Security First (OWASP R1-R12):** Enforce en cada commit; Ninja SecOps detiene procesos si detecta inyecciones de dependencias dudosas.
 14. **Contratos typesafe:** Imposición de arquitecturas tRPC y Zod Schema generation en el paso a paso.
-15. **Cross-Project Knowledge:** En la versión 3.3, el directorio `.agents/memory` puede ser copiado de un proyecto a otro y Ninja recordará todo instantáneamente.
-16. **Islands / SSR:** Empuje de las nuevas capacidades web (Edge, WASM, ESR) recopiladas en las investigaciones de nicho de la versión 3.3.
+15. **Cross-Project Knowledge:** En la versión 3.4, el directorio `.agents/memory` puede ser copiado de un proyecto a otro y Ninja recordará todo instantáneamente.
+16. **Islands / SSR:** Empuje de las nuevas capacidades web (Edge, WASM, ESR) recopiladas en las investigaciones de nicho de la versión 3.4.
 17. **Automated Documentation (SaaS Boilerplating):** Documentación simultánea mientras se ejecuta el código a través de `task.md` y `walkthrough.md`.
 
 ---
 
 ### ⚡ FASE 3: Automatización & Reglas Core (21-30)
-21. **La Regla de Oro (5x5x5):** Cualquier intervención es expandida por Ninja con 5 Ideas, 5 Alternativas, 5 Conceptos y 5 Optimizaciones (Característica 3.3 Exclusiva).
+21. **La Regla de Oro (5x5x5):** Cualquier intervención es expandida por Ninja con 5 Ideas, 5 Alternativas, 5 Conceptos y 5 Optimizaciones (Característica 3.4 Exclusiva).
 22. **Continuous Research:** Si Ninja no lo sabe, Ninja no hallucina. Frena -> Usa Browser/Herramientas -> Aprende -> Ejecuta -> Guarda en Memoria.
 23. **Dependency Drift Audit:** Verificaciones estáticas de `package.json` para matar paquetes vulnerables (Ej: Dependencias transitivas fallidas).
 24. **Sinergia Vercel AI SDK:** Flujos listos para renderizado generativo en NextJS integrados en la arquitectura nativa.

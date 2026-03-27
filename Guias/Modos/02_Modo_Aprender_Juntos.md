@@ -1,7 +1,7 @@
-# 🥷 NINJA v5.1 — MODO 2: OPENCODE (SOLO)
+# 🥷 NINJA v5.2 — MODO "APRENDER JUNTOS" (Interactivo)
 
-## 📌 Descripción del Modo
-El **Modo 2** es el "Ejército Autónomo". Aquí, no usamos el orquestador principal (Antigravity), sino que invocamos directamente a **Sub-Agentes Expertos** mediante OpenCode. 
+## 📌 ¿En qué consiste?
+En este modo, trabajamos como un equipo: tú usas otro modelo de IA y yo te voy dando las instrucciones y comandos exactos que tienes que usar. Es perfecto si quieres ver cómo se hace todo paso a paso.
 
 Para que los modelos de la capa de OpenCode (como `deepseek-v3.2`, `gemma3`, `qwen3`) obtengan resultados de grado Senior, **necesitan instrucciones (prompts) brutalmente enfocadas, contexto limitado a la tarea (nada de ruido) y roles absolutos.** Múltiples terminales OpenCode trabajan en partes aisladas del software.
 

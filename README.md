@@ -1,8 +1,7 @@
-# 🥷 NINJA — The Ultimate AI Software Engineer Framework
+# 🥷 NINJA v5.2 — TU AMIGO INGENIERO
+## El framework para crear software sin complicaciones.
 
-**Versión Actual:** v5.1 (Knowledge Amplification & Tech Radar)
-
-Ninja es un framework avanzado y asistente proactivo que convierte tu entorno de IA en un **Ingeniero de Software Full-Stack (Elite) y Arquitecto Visual Premium**. A diferencia de otros agentes, Ninja v5.1 toma el control del flujo (Assisted Chat), automatiza la creación de proyectos, integra capacidades de diseño web superior multimodales (evitando "AI Slop") y obliga al desarrollo de arquitecturas **Deep SaaS** de escala profesional consultando dinámicamente un conocimiento expandido de 70+ patrones Elite para entornos Nativos y Enterprise.
+Ninja es tu asistente personal de ingeniería. No importa si no sabes programar, Ninja te guía paso a paso, diseña por ti y construye aplicaciones profesionales con solo una charla.
 
 ## 🚀 Arquitectura Proactiva de 3 Modos (v5.1)
 

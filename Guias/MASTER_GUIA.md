@@ -14,9 +14,9 @@ Ninja has transformed from a purely reactive prompt structurer into a **Proactiv
 Ninja v5.1 adjusts its intelligence according to your choice:
 
 ### The 3 Execution Modes
-* **Mode 1 (Antigravity Solo):** Full automation. Ninja designs, writes, and deploys everything directly here. Best for speed and extreme quality control.
-* **Mode 2 (OpenCode Solo):** Terminal only. Ninja only gives you pure commands. You do all the manual pasting.
-* **Mode 3 (Hybrid - Supreme Level):** Ninja acts as the Master Architect. It creates the project folders, defines the data structures, and writes **Master Prompts** containing the exact LLM to use. You run the prompts in OpenCode, and paste the result back to Ninja for final integration.
+1.  **Modo "Hazlo por mí"**: (Antes Modo 1) Ninja diseña y programa todo directamente en Antigravity. Ideal para velocidad total.
+2.  **Modo "Aprender juntos"**: (Antes Modo 2) Ninja te da los comandos y tú los ejecutas. Ideal para aprender mientras creas.
+3.  **Modo "Arquitecto Senior"**: (Antes Modo 3) Ninja dirige la orquesta, crea la arquitectura y revisa cada detalle.
 
 ---
 

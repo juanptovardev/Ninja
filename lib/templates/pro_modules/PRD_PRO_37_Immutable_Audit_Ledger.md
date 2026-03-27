@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_37_Immutable_Audit_Ledger)
 > *Optimizador para: FinTech compliance, Registros Clínicos, GobTech Security.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Audit Trail Immutable & Event Sourcing.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Audit Trail Immutable & Event Sourcing.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Un simple log "user X updated table Y" no funciona en regulaciones HIPAA, SOC2 o bancarias. Los historiales pueden sufrir tampering o manipulación en base de datos.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Event-Driven / CQRS Architecture.
-- **Core Pattern (v5.1):** **Event Sourcing Protocol** usando AWS QLDB (Quantum Ledger) o `EventStoreDB` como fuente de verdad. `Kafka` para re-hidratar bases de datos de lectura rápida en PostgreSQL.
+- **Core Pattern (v5.2):** **Event Sourcing Protocol** usando AWS QLDB (Quantum Ledger) o `EventStoreDB` como fuente de verdad. `Kafka` para re-hidratar bases de datos de lectura rápida en PostgreSQL.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Time-Travel Debugger UI:** Interfaz capaz de reconstruir el estado de un objeto en base a un "Timeline Point".
@@ -29,4 +29,4 @@
 - [ ] Sub-Agente C: Interfaz Forensic Timeline y Audit Table.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: Nivel Simple (+)
 > *Plantilla optimizada para nichos de esfuerzo bajo (+) y UR variable. Foco en Validación de MVP y Time-to-Market.*
-> *Sugerencia v5.1:* Considerar PWA o UI Native-Like rápida.
+> *Sugerencia v5.2:* Considerar PWA o UI Native-Like rápida.
 
 ## 1. 🎯 Resumen Ejecutivo
 **Nicho:** [Nombre del Nicho]
@@ -26,4 +26,4 @@
 - **Día 5:** Testing y Despliegue en Edge (Vercel/Netlify).
 
 ---
-*Ninja Framework v5.1 - Módulo de Fábrica de Nichos*
+*Ninja Framework v5.2 - Módulo de Fábrica de Nichos*

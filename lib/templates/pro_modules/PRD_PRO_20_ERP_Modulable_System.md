@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: ERP Modulable System
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: "Enterprise Resource Planning". Sistemas inmensos de backoffice donde se mueve facturación, inventario paralelo e impuestos de multi-sucursales.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

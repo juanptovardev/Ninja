@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_30_InfiniteCanvas_Whiteboard)
 > *Optimizador para: Herramientas tipo Figma, Miro, tldraw, Diagramación colaborativa.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Canvas-Based Layouts + CRDT.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Canvas-Based Layouts + CRDT.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** El DOM tradicional no escala para interfaces de arrastrar y soltar con zoom infinito y cientos de nodos simultáneos.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Engine 2D Render Client-side + WebSocket Sync Server.
-- **Core Pattern (v5.1):** **Canvas Layout Engine** (`tldraw`, `Fabric.js`, `Konva` o `Excalidraw Core`). **Yjs** o **Liveblocks** para la presencia colaborativa.
+- **Core Pattern (v5.2):** **Canvas Layout Engine** (`tldraw`, `Fabric.js`, `Konva` o `Excalidraw Core`). **Yjs** o **Liveblocks** para la presencia colaborativa.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Render Engine:** Gestión del estado del "Camera Viewport" (Pan, Zoom, Scale).
@@ -30,4 +30,4 @@
 - [ ] Sub-Agente C: Sistema de exportación a PNG/SVG y UI flotante (Toolbars sobre lienzo).
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

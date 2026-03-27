@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: Gaming Backend Engine
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Backend de ultra baja latencia para juegos multijugador, match-making y persistencia asíncrona de estado del jugador.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

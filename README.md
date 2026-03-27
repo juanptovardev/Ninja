@@ -3,17 +3,17 @@
 
 Ninja es tu asistente personal de ingeniería. No importa si no sabes programar, Ninja te guía paso a paso, diseña por ti y construye aplicaciones profesionales con solo una charla.
 
-## 🚀 Arquitectura Proactiva de 3 Modos (v5.1)
+## 🚀 Arquitectura Proactiva de 3 Modos (v5.2)
 
 Ninja ha evolucionado de ser un orquestador pasivo a un asistente que guía al usuario y automatiza la infraestructura visual y técnica:
 
-1. **Modo Antigravity (Elite Solo)**: Autonomía total en Claude/Gemini. Ninja extrae requisitos exhaustivamente, genera mockups/recursos gráficos, crea el proyecto (`proyectos/`) y construye el SaaS completo de principio a fin respetando estrictos estándares UI/UX.
-2. **Modo OpenCode (Terminal Solo)**: Ejecución atómica usando sub-agentes locales (DeepSeek/Qwen) con prompts optimizados y conocimiento extraído de la librería local `lib/`.
-3. **Modo Híbrido (Asistente Supremo)**: Ninja (Antigravity) actúa como Arquitecto. Diseña el plan, **crea las carpetas automáticamente**, propone los mockups de diseño, y genera **Prompts Maestros** con IAs pre-asignadas. El usuario solo corre los prompts en OpenCode y Ninja **ensambla el código resultante** evaluando la calidad global.
+1.  **Modo 1: Antigravity**: Ninja diseña y programa todo de forma autónoma.
+2.  **Modo 2: OpenCode**: Ninja entrega comandos para ejecutar en terminales.
+3.  **Modo 3: Híbrido**: El sistema supremo de orquestación y auditoría.
 
 ## 📂 Estructura del Repositorio
 
-- **`.agents/`**: El cerebro (Reglas 5x5x5, Habilidades SaaS y Memoria Técnica v5.1).
+- **`.agents/`**: El cerebro (Reglas 5x5x5, Habilidades SaaS y Memoria Técnica v5.2).
 - **`lib/`**: El Core de ingeniería amplificado:
   - `native_web/`: Patrones de élite para consumidor final (WebGPU, ISR, WebAuthn).
   - `enterprise/`: Patrones de gran escala B2B (Multi-tenant, Big Data Grids, RBAC).

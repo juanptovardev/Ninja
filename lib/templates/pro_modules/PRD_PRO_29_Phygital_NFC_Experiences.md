@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_29_Phygital_NFC_Experiences)
 > *Optimizador para: Museos, Retail Físico, Eventos, Credenciales "Tap-to-Web".*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Web NFC Integration.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Web NFC Integration.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** La fricción de escanear códigos QR en entornos físicos interrumpe la experiencia del usuario.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** PWA (Progressive Web App) + Interfaz de Hardware Edge.
-- **Core Pattern (v5.1):** **W3C Web NFC spec (`NDEFReader` / `NDEFWriter`)**.
+- **Core Pattern (v5.2):** **W3C Web NFC spec (`NDEFReader` / `NDEFWriter`)**.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Feature Detection:** Comprobación estricta de `if ('NDEFReader' in window)` y manejo de fallbacks (QR code).
@@ -30,4 +30,4 @@
 - [ ] Sub-Agente C: Interfaz UX de escanéo, animaciones de loading magnéticas y feedback.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

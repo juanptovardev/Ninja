@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_36_PaaS_App_Builder)
 > *Optimizador para: Retool Clones, Grafana Dashboards Custom, Low-Code Editors.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Custom Dashboard Marketplace / Plugin System.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Custom Dashboard Marketplace / Plugin System.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Los clientes empresariales necesitan conectar sus propias bases de datos SQL y crear dashboards privados sin la fricción de pedir desarrollos al equipo interno y codificando duro.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Pluggable Architecture / Platform as a Service (PaaS).
-- **Core Pattern (v5.1):** **Plugin Module System** inspirado en Grafana / Appsmith. Sandboxed Iframes / JS Evaluation (`jail-js` u Web Workers aislados).
+- **Core Pattern (v5.2):** **Plugin Module System** inspirado en Grafana / Appsmith. Sandboxed Iframes / JS Evaluation (`jail-js` u Web Workers aislados).
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Visual Node Editor / Query Builder:** `react-querybuilder` o editores de visual nodes avanzados (`React Flow`) para enlazar consultas a widgets.
@@ -28,4 +28,4 @@
 - [ ] Sub-Agente C: UI Builder y Property Pane (Barra lateral de edición tipo Figma/Retool).
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

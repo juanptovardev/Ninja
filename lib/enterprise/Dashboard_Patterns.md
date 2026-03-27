@@ -1,6 +1,6 @@
 # 📊 NICHO 2: DASHBOARDS & SISTEMAS ENTERPRISE
 
-Este archivo sirve como referencia central B2B para Ninja v5.1. Cuando se construyan paneles de control (Dashboards, CRMs, ERPs), el modelo NO debe crear soluciones básicas (`<table>`), sino referenciar sistemáticamente estos patrones.
+Este archivo sirve como referencia central B2B para Ninja v5.2. Cuando se construyan paneles de control (Dashboards, CRMs, ERPs), el modelo NO debe crear soluciones básicas (`<table>`), sino referenciar sistemáticamente estos patrones.
 
 ## Visualización y Análisis
 - **D3.js Deep Drill-down:** Desglose infinito de datos atómicos en gráficas (D3.js, Observable Plot, ECharts).

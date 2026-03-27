@@ -1,9 +1,9 @@
 ---
-description: Flujo de Trabajo Ninja v5.1 - Radar de Tecnología de Alto Desempeño
+description: Flujo de Trabajo Ninja v5.2 - Radar de Tecnología de Alto Desempeño
 ---
 # Flujo de Trabajo: Tech Radar (Selección de Arquitectura 5.1)
 
-Ninja v5.1 incluye un sistema masivo de conocimiento. Para evitar colapsos por sobrecarga, este workflow se dispara **ANTES de escribir código (Modo Híbrido)** para mapear la necesidad ideal.
+Ninja v5.2 incluye un sistema masivo de conocimiento. Para evitar colapsos por sobrecarga, este workflow se dispara **ANTES de escribir código (Modo Híbrido)** para mapear la necesidad ideal.
 
 ## Paso 1: Extracción Radar de Entorno
 Pregunta al usuario (o analiza su Idea):

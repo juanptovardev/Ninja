@@ -1,4 +1,4 @@
-# 🥷 NINJA v5.2 — MODO "APRENDER JUNTOS" (Interactivo)
+# 🥷 NINJA v5.2 — MODO 2: OPENCODE (SOLO)
 
 ## 📌 ¿En qué consiste?
 En este modo, trabajamos como un equipo: tú usas otro modelo de IA y yo te voy dando las instrucciones y comandos exactos que tienes que usar. Es perfecto si quieres ver cómo se hace todo paso a paso.

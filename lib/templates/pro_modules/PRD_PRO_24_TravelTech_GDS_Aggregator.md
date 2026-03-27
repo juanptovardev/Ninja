@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: TravelTech GDS Aggregator
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Buscadores de vuelos y hoteles. Intermediarios que parsean a múltiples proveedores lentos y sirven resultados homogeneizados al usuario final.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

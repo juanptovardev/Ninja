@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: Web3 DeFi Protocol & Smart Contracts
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Despliegue de contratos inteligentes inmutables y dApps financieras descentralizadas en redes Layer 1 o Layer 2.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

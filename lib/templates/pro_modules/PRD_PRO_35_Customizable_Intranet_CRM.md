@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_35_Customizable_Intranet_CRM)
 > *Optimizador para: Sistemas Administrativos de Agencias, CRMs Drag-and-Drop, Hubs Internos.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] D&D Widgets, Batch Background Tx.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] D&D Widgets, Batch Background Tx.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Cada rol en una empresa requiere un dashboard diferente, y programar vistas estáticas es inviable a escala B2B corporativa.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** SaaS B2B Multi-Rol System con Dashboard Dinámico.
-- **Core Pattern (v5.1):** **Drag-and-Drop Grid Layout** (`react-grid-layout`, `@dnd-kit/core`). **Background Job Queues** (`BullMQ`).
+- **Core Pattern (v5.2):** **Drag-and-Drop Grid Layout** (`react-grid-layout`, `@dnd-kit/core`). **Background Job Queues** (`BullMQ`).
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Widget Factory:** Diccionario de 20+ componentes (KPIs, Charts, Tasks) que se renderizan perezosamente (Lazy load) según la estructura JSON guardada del layout del usuario.
@@ -29,4 +29,4 @@
 - [ ] Sub-Agente C: Creación de la fábrica dinámica de de Widgets tipo CRM.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

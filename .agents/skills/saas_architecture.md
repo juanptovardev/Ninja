@@ -1,8 +1,8 @@
-# 🥷 NINJA SKILL — SaaS & ARQUITECTURA v4.5
+# 🥷 NINJA SKILL — SaaS & ARQUITECTURA v5.2
 ## De cero a Deep SaaS production-ready
 
 > [!IMPORTANT]
-> **MANDATO DE PRODUCCIÓN:** Todo proyecto de producción en Ninja v4.5 DEBE ser un "Deep SaaS". No se aceptan landing pages simples. Se requiere obligatoriamente: Auth (Clerk/Lucia), Multi-tenancy (tenant_id), Stripe/LemonSqueezy, y Base de Datos relacional (Drizzle/PostgreSQL).
+> **MANDATO DE PRODUCCIÓN:** Todo proyecto de producción en Ninja v5.2 DEBE ser un "Deep SaaS". No se aceptan landing pages simples. Se requiere obligatoriamente: Auth (Clerk/Lucia), Multi-tenancy (tenant_id), Stripe/LemonSqueezy, y Base de Datos relacional (Drizzle/PostgreSQL).
 
 
 Repos fuente: Open SaaS (Wasp), ixartz SaaS Boilerplate, Vercel Next.js Starter, Supabase, Ignite (mobile)

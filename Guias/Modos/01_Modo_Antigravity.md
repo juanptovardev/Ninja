@@ -1,4 +1,4 @@
-# 🥷 NINJA v5.2 — MODO "HAZLO POR MÍ" (Automático)
+# 🥷 NINJA v5.2 — MODO 1: ANTIGRAVITY (SOLO)
 
 ## 📌 ¿En qué consiste?
 Este es el modo más sencillo: tú me cuentas tu idea y yo me encargo de diseñar y programar todo directamente aquí, sin que tengas que tocar nada raro.

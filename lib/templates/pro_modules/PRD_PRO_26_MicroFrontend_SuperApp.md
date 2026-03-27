@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_26_MicroFrontend_SuperApp)
 > *Optimizador para: Super Apps B2C/B2B con múltiples equipos.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Module Federation.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Module Federation.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Diferentes equipos construyen funcionalidades separadas y el monolito tarda horas en compilar, bloqueando releases.
@@ -9,7 +9,7 @@
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Micro-Frontends (MFE) Architecture.
 - **Orquestador Central (Shell):** Aplicación Host (Next.js o React SPA).
-- **Core Pattern (v5.1):** **Module Federation** (usando Webpack 5 Module Federation, `single-spa` o `Qiankun`).
+- **Core Pattern (v5.2):** **Module Federation** (usando Webpack 5 Module Federation, `single-spa` o `Qiankun`).
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Estrategia de Renderizado:** Dynamic Client-Side Injections de remotos.
@@ -31,4 +31,4 @@
 - [ ] Sub-Agente C: MFE Remoto 2 (Dashboard/Core Feature).
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

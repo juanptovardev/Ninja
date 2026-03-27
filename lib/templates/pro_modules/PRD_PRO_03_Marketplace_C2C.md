@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: Marketplace C2C (Two-Sided)
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: El problema del "huevo y la gallina", equilibrando la oferta y demanda con transacciones financieras ciegas.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

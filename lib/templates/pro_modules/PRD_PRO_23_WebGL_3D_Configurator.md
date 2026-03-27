@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: WebGL 3D Configurator
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Tiendas de e-commerce complejas donde el usuario ensambla un mueble, un coche o una joya en tiempo real con iluminación fotorealista.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

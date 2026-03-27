@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_31_ClientSide_Semantic_Engine)
 > *Optimizador para: Bases de conocimiento locales, Buscadores AI Zero-Latency.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Semantic Search Native & WASM.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Semantic Search Native & WASM.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** La búsqueda vectorial tradicional ("Semantic Search") depende de llamadas API costosas a Pinecone/OpenAI, añadiendo cientos de ms de latencia.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** PWA Enriched with WebAssembly (WASM).
-- **Core Pattern (v5.1):** **In-Browser Machine Learning (`Transformers.js`, `Orama Search`)**.
+- **Core Pattern (v5.2):** **In-Browser Machine Learning (`Transformers.js`, `Orama Search`)**.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Model Loader:** Descarga asíncrona de los weights del modelo `Xenova/all-MiniLM-L6-v2` (aprox 22MB) y cacheo en IndexedDB.
@@ -29,4 +29,4 @@
 - [ ] Sub-Agente C: Command Palette interactiva (tipo Raycast) para invocar las consultas.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

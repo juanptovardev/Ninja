@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: Nivel Estándar (++)
 > *Plantilla optimizada para nichos de esfuerzo medio (++) y alto UR. Foco en Balance de Arquitectura y Velocidad de Go-To-Market.*
-> *Requisito v5.1:* Sugerencia de consulta al Tech Radar para optimizaciones rápidas.
+> *Requisito v5.2:* Sugerencia de consulta al Tech Radar para optimizaciones rápidas.
 
 ## 1. 🎯 Resumen Ejecutivo
 **Nicho:** [Nombre del Nicho]
@@ -33,4 +33,4 @@
 - **Sprint 4:** Polish visual, QA y Lanzamiento.
 
 ---
-*Ninja Framework v5.1 - Módulo de Fábrica de Nichos*
+*Ninja Framework v5.2 - Módulo de Fábrica de Nichos*

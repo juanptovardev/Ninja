@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: B2C Consumer Social Network
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura enfocada en la retención celular, cargas virales asíncronas y latencia cero para el usuario final.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

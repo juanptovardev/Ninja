@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: FinTech Ledger System
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Core bancario moderno. Donde el dinero no son números flotantes, sino eventos contables de doble entrada.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

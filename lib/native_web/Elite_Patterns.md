@@ -1,6 +1,6 @@
 # 🌐 NICHO 1: DESARROLLO WEB NATIVO (Elite Patterns)
 
-Este documento es el índice de conocimiento B2C/Native Web de alto rendimiento de Ninja v5.1. Cuando el usuario requiera rendimiento extremo, gráficos, hardware en el cliente o PWA, Ninja DEBE usar esta base arquitectónica en la generación de Prompts Maestros.
+Este documento es el índice de conocimiento B2C/Native Web de alto rendimiento de Ninja v5.2. Cuando el usuario requiera rendimiento extremo, gráficos, hardware en el cliente o PWA, Ninja DEBE usar esta base arquitectónica en la generación de Prompts Maestros.
 
 ## Arquitectura de Renderizado y Carga
 - **Predictive Prefetching:** Usa IA para cargar la siguiente ruta (ForesightJS, Guess.js).

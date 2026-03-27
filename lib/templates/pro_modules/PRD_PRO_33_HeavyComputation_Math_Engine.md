@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_33_HeavyComputation_Math_Engine)
 > *Optimizador para: Simulaciones Científicas, Compresión Local, CAD en la Web.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Rust-Based Web Workers & WASM.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Rust-Based Web Workers & WASM.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Operaciones matemáticas intensivas o parsings masivos bloquean el Main Thread en JavaScript, congelando la UI durante segundos.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Client-Heavy Compute con Web Workers delegados.
-- **Core Pattern (v5.1):** **Rust to WASM (`wasm-bindgen`) + Web Workers RPC (`Comlink`)**.
+- **Core Pattern (v5.2):** **Rust to WASM (`wasm-bindgen`) + Web Workers RPC (`Comlink`)**.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Worker Hub:** Librería `Comlink` para abstraer la comunicación Worker-Main via Promesas.
@@ -28,4 +28,4 @@
 - [ ] Sub-Agente C: Interfaz gráfica y Data Viz React (Three.js / Canvas2D) alimentada por el Worker.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

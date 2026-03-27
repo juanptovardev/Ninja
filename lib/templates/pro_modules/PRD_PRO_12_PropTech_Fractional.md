@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: PropTech Fractional Ownership
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura de fraccionalización de activos inmobiliarios distribuidos mediante entidades legales on-chain o bases de datos inmutables.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

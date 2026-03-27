@@ -1,14 +1,14 @@
-# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v5.1)
+# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v5.2)
 
 Esta guía rescata y evoluciona el sistema de delegación de Ninja. En la versión 5.1, Ninja ya no solo dicta prompts; actúa como un **Asistente Proactivo** que automatiza la infraestructura y ensambla el código resultante. Escala o muere.
 
 ---
 
-## 1. El Rol de Ninja (Orquestador v5.1)
+## 1. El Rol de Ninja (Orquestador v5.2)
 
 Cuando el usuario elige el MODO 3 (Híbrido), tú (Ninja/Antigravity) asumes el control absoluto del plan de arquitectura.
 
-- **Misión v5.1**: Iniciar los desarrollos EXCLUSIVAMENTE dentro de la carpeta `proyectos/[Nombre_Proyecto]`. Diseñar planos Deep SaaS, **crear los directorios automáticamente**, e impartir **Prompts Maestros** indicando el modelo exacto (DeepSeek, Gemma) desde `MODELOS_REGISTRADOS.md`. NUNCA DEBE GENERAR INSTRUCCIONES SIMPLES.
+- **Misión v5.2**: Iniciar los desarrollos EXCLUSIVAMENTE dentro de la carpeta `proyectos/[Nombre_Proyecto]`. Diseñar planos Deep SaaS, **crear los directorios automáticamente**, e impartir **Prompts Maestros** indicando el modelo exacto (DeepSeek, Gemma) desde `MODELOS_REGISTRADOS.md`. NUNCA DEBE GENERAR INSTRUCCIONES SIMPLES.
 
 ---
 
@@ -23,7 +23,7 @@ Cuando el usuario elige el MODO 3 (Híbrido), tú (Ninja/Antigravity) asumes el 
 - **Misión**: Recibir los wireframes/mockups y tokens de diseño generados por Ninja. Convertirlos a Next.js 15 Server Components + Tailwind 4. Cero "AI Slop".
 
 ### C. Antigravity (Tú - Ensamblador)
-- **Misión v5.1**: Encargado de integrar RAG (Vercel AI SDK). Si una librería es desconocida por `lib/`, este agente realiza la búsqueda y guarda el contexto local. Es el responsable de **Ensamblar y Unir** el código devuelto por los otros sub-agentes en el proyecto principal.
+- **Misión v5.2**: Encargado de integrar RAG (Vercel AI SDK). Si una librería es desconocida por `lib/`, este agente realiza la búsqueda y guarda el contexto local. Es el responsable de **Ensamblar y Unir** el código devuelto por los otros sub-agentes en el proyecto principal.
 
 ### 4. Ninja SecOps (The Shield)
 - **Carga Cognitiva**: `.agents/rules/security.md` + `lib/security`.
@@ -32,12 +32,12 @@ Cuando el usuario elige el MODO 3 (Híbrido), tú (Ninja/Antigravity) asumes el 
 
 ### 5. Ninja Agentic (The AI Integrator & RAG Expert)
 - **Carga Cognitiva**: `.agents/memory/` + `lib/snippets`.
-- **Misión v4.5**: Encargado de integrar RAG (Vercel AI SDK). Si una librería es desconocida por `lib/`, este agente realiza la búsqueda y guarda el contexto local. Es el responsable de **Ensamblar y Unir** el código devuelto por los otros sub-agentes en el proyecto principal.
+- **Misión v5.2**: Encargado de integrar RAG (Vercel AI SDK). Si una librería es desconocida por `lib/`, este agente realiza la búsqueda y guarda el contexto local. Es el responsable de **Ensamblar y Unir** el código devuelto por los otros sub-agentes en el proyecto principal.
 - **Comando de Invocación**: `/ninja-ai` o `/ninja-absorb`.
 
 ---
 
-## 🌊 Flujos de Trabajo Actualizados (Workflows v4.0)
+## 🌊 Flujos de Trabajo Actualizados (Workflows v5.2)
 
 ### 🚀 Flujo A: Scaffolding y Ejecución Secuencial Asistida
 1. **Asistencia Inicial:** Ninja extrae requisitos y decide entre Demo o Producción.
@@ -60,7 +60,7 @@ graph TD
 ---
 
 ## 💡 Consejos de Rendimiento para Modelos Gratuitos (Modo 2)
-Para aprovechar la nueva Arquitectura v4.0 en OpenCode:
+Para aprovechar la nueva Arquitectura v5.2 en OpenCode:
 1. **Prompts Restrictivos y Extensos**: Usa la instrucción `"Extrae el patrón de lib/snippets y úsalo, no inventes código"`. Asegura que el prompt generado mida al menos 300 palabras cubriendo casos borde.
 2. **Cierre de Ciclo Seguro**: Antes de hacer Commit, siempre pasa el código por el SecOps Sub-Agent. 
 

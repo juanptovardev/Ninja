@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: B2B SaaS Multi-Tenant
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura diseñada para aislamiento de datos empresariales, roles complejos y facturación basada en uso.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

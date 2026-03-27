@@ -20,5 +20,5 @@ Todo código de interfaz generado por Ninja debe adherirse estrictamente a estas
 - **Acción:** Todo elemento interactivo debe tener estilos `:hover`, `:focus-visible` (con `ring` u `outline`), y `:active`. Los contrastes de texto sobre fondo deben ser auditados mentalmente para superar ratio 4.5:1.
 
 ## 5. Experiencias 3D y Sistemas B2B/Enterprise
-- **Regla:** Integración inmersiva y Extracción Inteligente (v5.1).
+- **Regla:** Integración inmersiva y Extracción Inteligente (v5.2).
 - **Acción:** Al integrar Three.js/WebGL, asegúrate de que el canvas sea responsivo, que use texturas generadas optimizadas, y que exista un fallback (Native Web). Al crear Dashboards B2B (Enterprise), aplica patrones de carga pesada como TanStack Virtualization y gráficos profundos extrayendo lógicas valiosas de sistemas de visualización de datos (D3.js). Revisa `lib/native_web/Elite_Patterns.md` y `lib/enterprise/Dashboard_Patterns.md` para ideas de alto desempeño.

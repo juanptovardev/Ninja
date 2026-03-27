@@ -1,4 +1,4 @@
-# 🥷 NINJA v5.2 — MODO "ARQUITECTO SENIOR" (Experto)
+# 🥷 NINJA v5.2 — MODO 3: HÍBRIDO (EL NIVEL SUPREMO)
 
 ## 📌 Descripción del Modo
 El **Modo 3** es la "Arquitectura Definitiva". Aquí combinamos la genialidad inigualable del modelo Elite en Antigravity para la Ingeniería Superior, y la fuerza bruta concurrente de los modelos Standard de OpenCode para teclear el código.
@@ -42,4 +42,4 @@ Ninja creará y salvará físicamente los archivos en tu disco (`proyectos/[Name
 ---
 
 ## ⚡ El Poder del Prompt Engineering Cruzado
-Ninja v3.4 ya sabe que si le ordenas "**Opera en Modo Híbrido**", él no escribirá todo el código; él **escribirá los PROMPTS súper-optimizados (con CoT, Few-Shot y contexto delimitado a librerías de `lib/`)** que tú le darás a los modelos gratuitos. Es una Inteligencia Artificial creando instrucciones precisas en lenguaje nativo para otras Inteligencias Artificiales.
+Ninja v5.2 ya sabe que si le ordenas "**Opera en Modo Híbrido**", él no escribirá todo el código; él **escribirá los PROMPTS súper-optimizados (con CoT, Few-Shot y contexto delimitado a librerías de `lib/`)** que tú le darás a los modelos gratuitos. Es una Inteligencia Artificial creando instrucciones precisas en lenguaje nativo para otras Inteligencias Artificiales.

@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_27_WebGPU_Immersive_Engine)
 > *Optimizador para: Motores 3D, Metaverso Web, Simuladores Visuales.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Native WebGPU Rendering.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Native WebGPU Rendering.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Rendimiento pobre en WebGL para escenas con millones de polígonos.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Thick Client (Render pesado en el dispositivo del usuario).
-- **Core Pattern (v5.1):** **Native WebGPU Rendering** usando librerías modernas como `Orillusion`, `Babylon.js` (WebGPU mode) o `gpu-curtains`.
+- **Core Pattern (v5.2):** **Native WebGPU Rendering** usando librerías modernas como `Orillusion`, `Babylon.js` (WebGPU mode) o `gpu-curtains`.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Canvas System:** Gestión del `GPUCanvasContext`.
@@ -30,4 +30,4 @@
 - [ ] Sub-Agente C: WebSocket server para instancias multi-jugador / colaborativas.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

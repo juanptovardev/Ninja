@@ -1,4 +1,4 @@
-# 🛠️ CATÁLOGO DE 100 HERRAMIENTAS NINJA (v5.1 - QUANTUM)
+# 🛠️ CATÁLOGO DE 100 HERRAMIENTAS NINJA (v5.2 - QUANTUM)
 
 Este catálogo contiene utilidades granulares que Ninja puede inyectar en cualquier proyecto para elevar la calidad, seguridad y velocidad de desarrollo.
 
@@ -113,4 +113,4 @@ Este catálogo contiene utilidades granulares que Ninja puede inyectar en cualqu
 100. **The Ninja Killswitch**: Botón de pánico (Soft Delete) para borrar todas las IPs de clientes en caso de intrusión.
 
 ---
-*Fin del Catálogo. Ninja v3.4 tiene acceso a estas metodologías por defecto en su memoria táctica.*
+*Fin del Catálogo. Ninja v5.2 tiene acceso a estas metodologías por defecto en su memoria táctica.*

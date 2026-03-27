@@ -1,5 +1,5 @@
 # 📄 PRD PRO MODULE: Headless CMS Engine
-> *Requisito v5.1:* **Tech Radar Amplification Activa**.
+> *Requisito v5.2:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Sistemas para gestión de contenido desacoplado de su presentación. Redacciones o generadores de Assets de marketing B2B.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

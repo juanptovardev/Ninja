@@ -1,4 +1,4 @@
-# 🎨 Librería de Sistemas de Diseño (Ninja v5.1)
+# 🎨 Librería de Sistemas de Diseño (Ninja v5.2)
 
 Este directorio alberga los "Tokens" y "Reglas extraídas" de los repositorios masivos de UI/UX (ej. *ui-ux-pro-max-skill*, *Design Auditor*).
 

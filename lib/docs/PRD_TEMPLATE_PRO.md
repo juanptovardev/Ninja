@@ -3,7 +3,7 @@
 ## 📌 Metadata
 - **Proyecto**: [NOMBRE]
 - **Versión PRD**: 1.0
-- **Autor**: Ninja v5.1
+- **Autor**: Ninja v5.2
 - **Prioridad Ninja**: +++ / ++ / +
 - **UR (User Relevance)**: X/10
 - **Fecha**: [AUTO]
@@ -95,4 +95,4 @@
 | Revenue (MRR) | $X | 90 días |
 
 ---
-*Plantilla Ninja v5.1 — PRD Profesional para ejecución Enterprise.*
+*Plantilla Ninja v5.2 — PRD Profesional para ejecución Enterprise.*

@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_28_LocalFirst_Sync_Workspace)
 > *Optimizador para: Workspaces colaborativos, Notas tipo Notion, Apps Offline.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Local-First Sync, WebAssembly SQLite.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Local-First Sync, WebAssembly SQLite.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** La red es frágil. Los usuarios experimentan spinners y lag al interactuar con datos en apps web puras.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Local-First / Optimistic Offline-First.
-- **Core Pattern (v5.1):** **Local-First Sync** (`Replicache`, `ElectricSQL` o `CRDT` basado en `Yjs`). SQLite en WebAssembly (`wa-sqlite`) persistiendo en Origin Private File System (OPFS).
+- **Core Pattern (v5.2):** **Local-First Sync** (`Replicache`, `ElectricSQL` o `CRDT` basado en `Yjs`). SQLite en WebAssembly (`wa-sqlite`) persistiendo en Origin Private File System (OPFS).
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Data Fetch:** Suscripción local a queries via WASM SQLite. Actualizaciones en 0ms.
@@ -29,4 +29,4 @@
 - [ ] Sub-Agente C: UI de Componentes, Zustand y Manejo Condicional de Conexión (Offline Indicators).
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

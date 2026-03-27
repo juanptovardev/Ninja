@@ -1,6 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (PRD_PRO_32_MultiMonitor_Trading_Terminal)
 > *Optimizador para: Plataformas de Trading en bolsa, Cripto, Paneles CCTV.*
-> *Requisito v5.1:* **Tech Radar Amplification** [x] Multi-Screen Window Management.
+> *Requisito v5.2:* **Tech Radar Amplification** [x] Multi-Screen Window Management.
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema:** Los traders y despachadores necesitan extraer widgets (Ej. gráficas, tableros de compra/venta) y dispersarlos en 4 o más monitores físicos, lo cual se siente incómodo en una web app clásica de 1 sola pestaña.
@@ -8,7 +8,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología:** Multi-window Single Page Application (SPA).
-- **Core Pattern (v5.1):** **Window Management API**, `BroadcastChannel API`, y `react-new-window`.
+- **Core Pattern (v5.2):** **Window Management API**, `BroadcastChannel API`, y `react-new-window`.
 
 ## 3. 🖥️ Frontend Engine (Web/Mobile)
 - **Widget Manager:** Un entorno "Root" que despliega iframes o pop-outs hacia nuevas instancias de `window.open`.
@@ -29,4 +29,4 @@
 - [ ] Sub-Agente C: Backend High-Throughput para ingestión de precios.
 
 ---
-*Ninja Framework v5.1 - Módulo de Expansión Pro
+*Ninja Framework v5.2 - Módulo de Expansión Pro

@@ -1,4 +1,4 @@
-# 🛠️ CATÁLOGO DE 100 HERRAMIENTAS NINJA (v3.4)
+# 🛠️ CATÁLOGO DE 100 HERRAMIENTAS NINJA (v5.1 - QUANTUM)
 
 Este catálogo contiene utilidades granulares que Ninja puede inyectar en cualquier proyecto para elevar la calidad, seguridad y velocidad de desarrollo.
 

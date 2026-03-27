@@ -1,4 +1,4 @@
-# 🥷 NINJA — ACTIVATOR WORKFLOW v3.4
+# 🥷 NINJA — ACTIVATOR WORKFLOW v5.1 (QUANTUM)
 ---
 description: Ninja AI Activator — carga el perfil de ingeniero de software profesional y funciones v3.4
 ---

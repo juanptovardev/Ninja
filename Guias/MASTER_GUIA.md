@@ -1,4 +1,4 @@
-# 🥷 NINJA — MASTER USAGE GUIDE v5.1 (ACTIVE)
+# 🎓 NINJA v5.1 — MASTER GUÍA OPERATIVA (QUANTUM)DE v5.1 (ACTIVE)
 
 ## 🆕 What's New in v5.1 (Assisted Chat)
 Ninja has transformed from a purely reactive prompt structurer into a **Proactive Tech Lead**. You no longer need to know exactly what folders to create or what files to setup. Ninja will interview you, design the architecture, generate the directory structures autonomously, and guide you step-by-step through execution.
@@ -40,6 +40,7 @@ Scaffold professional SaaS projects instantly with automated directory creation.
 - **v3.5 (STRICT PROMPTS):** Reglas estrictas en los sub-agentes.
 - **v4.0 (ORCHESTRATOR):** Global System Upgrade. Onboarding & Modular Logging.
 - **v4.5:** Proactive Assisted Chat & Deep SaaS Scale.
+- **v5.1 (QUANTUM):** Onboarding Progresivo ("hola" trigger), Tech Radar Workflow y purga de mixtos antiguos.
 - **v5.1 (ACTIVE):** Knowledge Amplification & Tech Radar.
 
 ---

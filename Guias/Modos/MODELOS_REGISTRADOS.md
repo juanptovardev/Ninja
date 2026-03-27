@@ -1,4 +1,4 @@
-# 🤖 REGISTRO MAESTRO DE MODELOS (NINJA v3.4)
+# 🤖 REGISTRO MAESTRO DE MODELOS (NINJA v5.1 - QUANTUM)
 
 Este registro clasifica los modelos de IA según su rol en la arquitectura de Ninja. Incluye los modelos de punta de **Antigravity** (Orquestación) y la lista completa de ejecución en **OpenCode**.
 

@@ -32,4 +32,4 @@
 - **Tiempo MVP**: X semanas
 
 ---
-*Plantilla Ninja v3.4 — PRD Simple para validación rápida.*
+*Plantilla Ninja v5.1 — PRD Simple para validación rápida.*

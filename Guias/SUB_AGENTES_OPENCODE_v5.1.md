@@ -1,27 +1,29 @@
-# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v4.5)
+# 🥷 GUÍA DE ORQUESTACIÓN: SUB-AGENTES EN OPENCODE (v5.1)
 
-Esta guía rescata y evoluciona el sistema de delegación de Ninja. En la versión 4.5, Ninja ya no solo dicta prompts; actúa como un **Asistente Proactivo** que automatiza la infraestructura y ensambla el código resultante. Escala o muere.
+Esta guía rescata y evoluciona el sistema de delegación de Ninja. En la versión 5.1, Ninja ya no solo dicta prompts; actúa como un **Asistente Proactivo** que automatiza la infraestructura y ensambla el código resultante. Escala o muere.
 
 ---
 
-## 🎭 Los 5 Perfiles de Sub-Agentes Ninja
+## 1. El Rol de Ninja (Orquestador v5.1)
 
-Para maximizar la ventana de contexto de modelos gratuitos (Qwen, DeepSeek), Ninja aísla su conocimiento global (`lib/`, `rules/`) dividiéndolo en 5 sombreros:
+Cuando el usuario elige el MODO 3 (Híbrido), tú (Ninja/Antigravity) asumes el control absoluto del plan de arquitectura.
 
-### 1. Ninja Architect (The Assistant)
-- **Carga Cognitiva**: `.agents/rules/core.md` (Vertical de 25 puntos) + `.agents/skills/saas_architecture.md`.
-- **Misión v4.5**: Iniciar los desarrollos EXCLUSIVAMENTE dentro de la carpeta `proyectos/[Nombre_Proyecto]`. Diseñar planos Deep SaaS, **crear los directorios automáticamente**, e impartir **Prompts Maestros** indicando el modelo exacto (DeepSeek, Gemma) desde `MODELOS_REGISTRADOS.md`. NUNCA DEBE GENERAR INSTRUCCIONES SIMPLES.
-- **Comando de Invocación**: `/ninja-plan` u `/ninja-init`.
+- **Misión v5.1**: Iniciar los desarrollos EXCLUSIVAMENTE dentro de la carpeta `proyectos/[Nombre_Proyecto]`. Diseñar planos Deep SaaS, **crear los directorios automáticamente**, e impartir **Prompts Maestros** indicando el modelo exacto (DeepSeek, Gemma) desde `MODELOS_REGISTRADOS.md`. NUNCA DEBE GENERAR INSTRUCCIONES SIMPLES.
 
-### 2. Ninja UI/UX (The Visualist)
-- **Carga Cognitiva**: `.agents/rules/frontend.md` + `lib/components`.
-- **Misión**: Traducir los bloques del Architect en interfaces con Glassmorphism, Micro-interacciones GSAP y Tailwind 4. Cero lógica pesada.
-- **Comando de Invocación**: `/ninja-ui` (Delegado a Terminal OpenCode).
+---
 
-### 3. Ninja Backend (The Logic)
-- **Carga Cognitiva**: `.agents/rules/backend.md` + `lib/algorithms`.
-- **Misión**: Levantar endpoints en Hono, contratos tRPC, migraciones Drizzle y gestionar BullMQ. Solo datos y seguridad interna.
-- **Comando de Invocación**: `/ninja-logic` (Delegado a Terminal OpenCode).
+## 2. Los Perfiles Especializados (OpenCode)
+
+### A. Sub-Agente Generador (Backend/DB/Lógica Core)
+- **Ejecutante ideal**: DeepSeek-V3 / Qwen 2.5 (32B+).
+- **Misión**: Crear las APIs de Hono, Schemas de Drizzle, Auth y Webhooks. Ninja debe pasarle los esquemas exactos.
+
+### B. Sub-Agente UX/UI Visual
+- **Ejecutante ideal**: DeepSeek-V3 / Llama 3 (Optimizados en código).
+- **Misión**: Recibir los wireframes/mockups y tokens de diseño generados por Ninja. Convertirlos a Next.js 15 Server Components + Tailwind 4. Cero "AI Slop".
+
+### C. Antigravity (Tú - Ensamblador)
+- **Misión v5.1**: Encargado de integrar RAG (Vercel AI SDK). Si una librería es desconocida por `lib/`, este agente realiza la búsqueda y guarda el contexto local. Es el responsable de **Ensamblar y Unir** el código devuelto por los otros sub-agentes en el proyecto principal.
 
 ### 4. Ninja SecOps (The Shield)
 - **Carga Cognitiva**: `.agents/rules/security.md` + `lib/security`.

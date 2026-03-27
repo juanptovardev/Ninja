@@ -1,4 +1,4 @@
-# 🥷 NINJA v4.5 — MODO 3: HÍBRIDO (ASISTENTE PROACTIVO + EJECUTORES)
+# 🥷 NINJA v5.1 — MODO 3: HÍBRIDO (ASISTENTE PROACTIVO + EJECUTORES)
 
 ## 📌 Descripción del Modo
 El **Modo 3** es la "Arquitectura Definitiva". Aquí combinamos la genialidad inigualable del modelo Elite en Antigravity para la Ingeniería Superior, y la fuerza bruta concurrente de los modelos Standard de OpenCode para teclear el código.

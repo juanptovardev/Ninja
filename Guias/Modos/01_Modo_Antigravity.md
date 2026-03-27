@@ -1,4 +1,4 @@
-# 🥷 NINJA v4.5 — MODO 1: ANTIGRAVITY (SOLO)
+# 🥷 NINJA v5.1 — MODO 1: ANTIGRAVITY (SOLO)
 
 ## 📌 Descripción del Modo
 El **Modo 1** es la experiencia de Ingeniería Autónoma Pura elevada por el **Asistente Proactivo**. En este entorno, Antigravity (tu IDE/Entorno Principal con el modelo de élite) asume la responsabilidad total: guía la extracción de requisitos, crea automáticamente el proyecto (`proyectos/`), escribe el código Deep SaaS, purifica y despliega de forma desatendida.

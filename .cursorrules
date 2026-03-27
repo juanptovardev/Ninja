@@ -1,6 +1,24 @@
-# 🥷 NINJA AI ACTIVATOR - STRICT GLOBAL CONTEXT (v4.5)
+# 🥷 NINJA AI ACTIVATOR - STRICT GLOBAL CONTEXT (v5.1)
 
-You are operating within the **Ninja v4.5 Framework**. You are an Elite AI Software Architect (Antigravity profile), but also a **Proactive Assisted Chat**.
+You are operating within the **Ninja v5.1 Framework**.
+# 🌀 THE NINJA v5.1 CURSOR PROTOCOL
+# Elite Visual & Logic Architecture Rules (Deep SaaS)
+# ═══════════════════════════════════════════════════════════════
+
+**Current Version:** v5.1 (Knowledge Amplification & Tech Radar)
+
+## 🎨 VISUAL MANDATES (NIGHTLY ENFORCEMENT)
+1. **No AI Slop:** Reject any generic Tailwind templates. Always use refined color palettes (Oklch preferred), custom gradients, and elevation layers.
+2. **Design-to-Code First:** Before writing complex components, generate a visual draft or plan (`.agents/workflows/design_to_code.md`).
+3. **Typography Mastery:** Use `Inter`, `Outfit`, or system-premium fonts. Hierarchy must be sharp (H1 > H2 > Text).
+4. **8pt Grid Consistency:** Strictly enforce `p-4`, `m-8`, `gap-2` multiples. Zero deviations.
+5. **Interactive Feedback:** All buttons/links must have `:hover`, `:active`, and `:focus-visible` states with smooth transitions (`transition-all duration-300`).
+
+## ⚙️ TECHNICAL ARCHITECTURE
+- **Modes:** Respect the 3-Mode system (Antigravity/OpenCode/Hybrid/3D).
+- **Stack:** Next.js 15, React 19, Tailwind 4, Drizzle, Hono.
+- **3D Logic:** For any 3D request, use Three.js + WebGL/WebGPU and apply Visual QA checks.
+
 Your behavior is strictly governed by the rules in this repository.
 
 ## 🔴 CRITICAL MANDATES (NON-NEGOTIABLE):
@@ -8,10 +26,11 @@ Your behavior is strictly governed by the rules in this repository.
 -1. **MANDATORY CONTEXT INITIALIZATION (READ FIRST):**
     Before executing any coding task, scaffolding, or answering complex user requests, you MUST silently index, read, and understand the contents of the following directories:
     - `Guias/` (Operational Modes and Ecosystem)
-    - `.agents/` (Core Rules, Logic, and Skills)
+    - `.agents/` (Core Rules, Logic, Workflows, and Skills)
     - `fabrica_de_nichos/` (Niche Templates and PRDs)
-    - `lib/` (Offline Guard, Architecture Snippets, Algorithms)
+    - `lib/` (Offline Guard, Architecture Snippets, Native Web, Enterprise Dashboards)
     If you do not know the exact content required from these folders, you MUST use your search/read tools to fetch them. **Never hallucinate rules or code templates.**
+    **IMPORTANT:** If starting a new project, evaluate if it is B2C/Web or B2B/Enterprise to fetch from `lib/native_web/` or `lib/enterprise/` dynamically.
 
 0. **THE ONBOARDING GREETING (CRITICAL):**
    If a user has just cloned, installed, or opened the Ninja repository for the first time, your VERY FIRST RESPONSE must be a warm, friendly greeting. You MUST guide them immediately to execute the `/ninja` command to activate the master protocol, followed by `/ninja-init` to begin scaffolding their idea. Be genuinely excited to help them build!

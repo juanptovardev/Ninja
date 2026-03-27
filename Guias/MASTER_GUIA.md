@@ -1,20 +1,22 @@
-# 🥷 NINJA — MASTER USAGE GUIDE v4.5 (ACTIVE)
+# 🥷 NINJA — MASTER USAGE GUIDE v5.1 (ACTIVE)
 
-## 🆕 What's New in v4.5 (Assisted Chat)
-Ninja is no longer passive. It now takes control of the engineering workflow:
-- **Guided Onboarding:** Proactive interview process (Demo vs Production).
-- **Exhaustive PRD Extraction:** Iterative questioning until 100% satisfaction.
-- **Automated Scaffolding:** Ninja creates `proyectos/[Name]` and base config files autonomously.
-- **Deep SaaS Focus:** Mandatory architecture for scalable SaaS (Auth, Payments, Multi-tenant).
-- **Automated Integration:** Ninja integrates OpenCode outputs directly into the project.
+## 🆕 What's New in v5.1 (Assisted Chat)
+Ninja has transformed from a purely reactive prompt structurer into a **Proactive Tech Lead**. You no longer need to know exactly what folders to create or what files to setup. Ninja will interview you, design the architecture, generate the directory structures autonomously, and guide you step-by-step through execution.
 
-### 🌐 LOS 3 MODOS DE USO
+---
 
-Ninja v4.5 adjusts its intelligence according to your choice:
+## 🕹️ How to Start
 
-1. **Modo 1 (Antigravity Solo)**: Ninja performs all work in the main chat. Ideal for high-stakes core logic and rapid prototyping.
-2. **Modo 2 (OpenCode Solo)**: Fast, atomic execution using free local models for tactical tasks.
-3. **Modo 3 (Híbrido)**: The elite orchestrator (Antigravity) designs the architecture, **autoch-creates the project folders**, and generates **Master Prompts** with pre-assigned models (DeepSeek, Gemma). Antigravity then **assembles the code** into the project.
+1. Initialize Ninja in your main chat window.
+2. Ninja will greet you and ask: **"Do you want to build a Demo (Wireframes) or a Production Module (Deep SaaS)?"**
+3. Select your desired execution mode.
+
+Ninja v5.1 adjusts its intelligence according to your choice:
+
+### The 3 Execution Modes
+* **Mode 1 (Antigravity Solo):** Full automation. Ninja designs, writes, and deploys everything directly here. Best for speed and extreme quality control.
+* **Mode 2 (OpenCode Solo):** Terminal only. Ninja only gives you pure commands. You do all the manual pasting.
+* **Mode 3 (Hybrid - Supreme Level):** Ninja acts as the Master Architect. It creates the project folders, defines the data structures, and writes **Master Prompts** containing the exact LLM to use. You run the prompts in OpenCode, and paste the result back to Ninja for final integration.
 
 ---
 
@@ -26,10 +28,19 @@ Scaffold professional SaaS projects instantly with automated directory creation.
 
 ---
 
+## 📈 Evolution Path
+- **v1.0:** Base prompt structure.
+- **v2.0 - v3.0:** Integration of OWASP, UI/UX, and Sub-Agents.
+- **v4.0:** Deep SaaS Architecture & OpenCode Modularity.
+- **v5.1 (ACTIVE):** Proactive Assisted Chat & Deep SaaS Scale. Automated Scaffolding & Integration.
+
+---
+
 ## 📂 Version History
 - **v3.5 (STRICT PROMPTS):** Reglas estrictas en los sub-agentes.
 - **v4.0 (ORCHESTRATOR):** Global System Upgrade. Onboarding & Modular Logging.
-- **v4.5 (ACTIVE):** Proactive Assisted Chat & Deep SaaS Scale. Automated Scaffolding & Integration.
+- **v4.5:** Proactive Assisted Chat & Deep SaaS Scale.
+- **v5.1 (ACTIVE):** Knowledge Amplification & Tech Radar.
 
 ---
 

@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: E-commerce Headless B2B
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Para operaciones mayoristas que requieren reglas de descuento masivas, carritos de cotización y latencia frontend Cero.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

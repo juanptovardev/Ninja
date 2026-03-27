@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Video Streaming Platform
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura para ingesta, transcodificación y distribución global de video OTT con DRM y protección de contenido.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

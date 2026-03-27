@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: EdTech Adaptive LMS
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Sistemas de aprendizaje que alteran el contenido dinámicamente según la curva de olvido (Spaced Repetition) del alumno.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

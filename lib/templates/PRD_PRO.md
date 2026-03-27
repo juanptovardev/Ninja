@@ -1,5 +1,6 @@
 # 📄 PRD NINJA: THE PRO-MASTER (Nivel Enterprise +++)
 > *La Plantilla Definitiva para Sistemas Críticos. Abarca 15 áreas de evaluación técnica profunda, diseñada para despliegues donde el fallo no es opción.*
+> *Requisito v5.1:* **Tech Radar Amplification Activa** (Mapeo OBLIGATORIO con patrones nativos web o enterprise).
 
 ## 1. 🎯 Tesis del Producto y Value Proposition
 **Problema del Mercado:** ¿Qué fricción exacta resuelve?
@@ -8,6 +9,7 @@
 
 ## 2. 🏛️ Arquitectura del Sistema (Macro)
 - **Topología Híbrida:** (Monolito Modular vs Microservicios).
+- **Core Pattern (v5.1):** [Consultar Tech Radar -> Reemplazar con patrón de lib/native_web (Ej. WebGPU) o lib/enterprise (Ej. D3.js Drill-down)].
 - **Communication Protocol:** REST, gRPC, GraphQL, WebSocket.
 - **Topología de Red:** Estrategia Multi-Región Edge vs Centralizada.
 
@@ -79,4 +81,4 @@
 - **Rollback Strategy:** Blue/Green Deployments, Feature Flags (Statsig/LaunchDarkly).
 
 ---
-*Ninja Framework v3.4 - Módulo de Expansión Pro*
+*Ninja Framework v5.1 - Módulo de Expansión Pro*

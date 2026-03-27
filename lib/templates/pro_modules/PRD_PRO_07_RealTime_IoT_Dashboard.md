@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Real-Time IoT & Telemetry Dashboard
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura diseñada para la ingesta de millones de eventos por minuto desde hardware, renderizados sin deprimir el frontend.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: HR ATS & Semantic Scraper
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Applicant Tracking System con ingesta de currículums masiva basada en Vector Search y Parsing de NLP avanzado.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

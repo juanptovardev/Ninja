@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Logistics Routing Engine
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: El problema del viajante (TSP). Generación de rutas masivas de última milla y geofencing para control de flotas.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

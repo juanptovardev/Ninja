@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Data Engineering Pipeline & Data Warehouse
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura enfocada en la ingesta, transformación (ETL/ELT) y orquestación masiva de datos estructurados y no estructurados.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

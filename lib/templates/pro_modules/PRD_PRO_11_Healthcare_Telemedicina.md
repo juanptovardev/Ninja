@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Healthcare Telemedicina
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Arquitectura enfocada en el cumplimiento estricto de PII (HIPAA/GDPR), encriptación E2E y baja latencia de video para consultas vitales.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

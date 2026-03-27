@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Enterprise LLM RAG & Knowledge Base
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Chatbots corporativos que NO alucinan, conectados a petabytes de documentos PDF, Notion, Confluence y repositorios cerrados.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

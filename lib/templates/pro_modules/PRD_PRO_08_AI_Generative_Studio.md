@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: Generative AI Production Studio
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Infraestructura para entrenar, versionar y consumir modelos de difusión e inferencia con orquestación GPU-as-a-Service.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

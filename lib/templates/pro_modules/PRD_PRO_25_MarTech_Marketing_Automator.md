@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: MarTech Marketing Automator
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: Constructores de Embudos (Funnels) y Campañas de Correos visuales tipo Klaviyo, Mailchimp o Zapier Nodes.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

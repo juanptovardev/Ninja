@@ -1,4 +1,5 @@
 # 📄 PRD PRO MODULE: AdTech Real-Time Bidding (RTB) Server
+> *Requisito v5.1:* **Tech Radar Amplification Activa**.
 > *Variante Especializada Ninja PRO: El entorno más hostil de la web. Servidores de subastas que procesan millones de requests diarios con restricción perimetral de <50 milisegundos.*
 
 ## 1. 🎯 Foco Arquitectónico del Módulo

@@ -1,9 +1,9 @@
-# 🥷 NINJA v3.4 — MODO 3: HÍBRIDO (ORQUESTADOR + EJECUTORES)
+# 🥷 NINJA v4.5 — MODO 3: HÍBRIDO (ASISTENTE PROACTIVO + EJECUTORES)
 
 ## 📌 Descripción del Modo
 El **Modo 3** es la "Arquitectura Definitiva". Aquí combinamos la genialidad inigualable del modelo Elite en Antigravity para la Ingeniería Superior, y la fuerza bruta concurrente de los modelos Standard de OpenCode para teclear el código.
 
-- **Antigravity (Ninja Principal)** = Arquitecto de Software, PM, Auditor QA.
+- **Antigravity (Ninja Principal)** = Asistente Proactivo, Arquitecto Deep SaaS, Integrador Autónomo.
 - **OpenCode (Ninja Sub-Agentes)** = Programadores Junior-Senior ultra-especializados.
 
 ---
@@ -21,24 +21,23 @@ Un plan maestro en markdown con tablas de tareas, además de cuadros de texto co
 
 ---
 
-### PASO 2: La Delegación Cíclica (OpenCode)
-Una vez Ninja te genera el "Prompt de Delegación", tú (el humano) actúas de enrutador hipervisor:
-1. Copias el **"Prompt de Delegación 1: Backend Setup"**.
-2. Abres la interfaz OpenCode y seleccionas un modelo lógico (ej. `deepseek-v3` o `qwen3`).
-3. Pegas el prompt. El modelo gratuito ejecutará la tarea quirúrgica usando el cerebro y las librerías `lib/` que Ninja Orquestador instruyó.
-4. Repites con el Frontend, BD, etc., en terminales paralelas.
+### PASO 2: La Delegación Asistida (OpenCode)
+Una vez Ninja te genera el "Prompt Maestro", tú (el humano) actúas de enrutador guiado:
+1. Copias el **"Prompt Maestro"** (El cual ya trae embebido el modelo ideal elegido autónomamente desde `MODELOS_REGISTRADOS.md`, ej. `[EJECUTAR EN OPENCODE CON: DeepSeek-V3]`).
+2. Abres la interfaz OpenCode y seleccionas el modelo exacto que Ninja te indicó.
+3. Pegas el prompt. El modelo gratuito ejecutará la tarea quirúrgica limitando su conocimiento a lo documentado por Ninja o al RAG adjunto.
+4. OpenCode devolverá ÚNICAMENTE el código fuente.
 
 ---
 
-### PASO 3: Verificación Ciega & Auditoría QA (Antigravity)
-Cuando los "obreros" (OpenCode) hayan construido los archivos, vuelves al "Arquitecto" (Antigravity):
+### PASO 3: Integración Autónoma y Verificación Ciega (Antigravity)
+Cuando los "obreros" (OpenCode) hayan construido los archivos, NO los ensambles manualmente. Vuelves al Asistente (Antigravity) con el código:
 
-> **Prompt Final al Orquestador**:
-> "Ninja (Orquestador). El equipo de sub-agentes en OpenCode ha terminado la estructura en la carpeta `src/`. Por favor, actúa como **Ninja SecOps / QA**.
-> 1. Analiza el código escrito.
-> 2. Lanza procesos visuales automáticos (si es frontend) para evaluar Lighthouse / Responsiveness.
-> 3. Ejecuta comandos de auditoría en los archivos recién generados para OWASP compliance.
-> Reporta si el despliegue es Seguro y Listo (Production Ready)."
+> **Prompt Final al Asistente**:
+> "Ninja, el equipo en OpenCode ha terminado. Aquí está el código generado: [PEGAR CÓDIGO]. 
+> Por favor, integra los archivos en la estructura `src/`, lanza procesos visuales (si es frontend), y ejecuta auditoría OWASP."
+
+Ninja creará y salvará físicamente los archivos en tu disco (`proyectos/[Name]`), orquestando la integración final.
 
 ---
 

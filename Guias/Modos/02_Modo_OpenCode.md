@@ -1,4 +1,4 @@
-# 🥷 NINJA v3.4 — MODO 2: OPENCODE (SOLO)
+# 🥷 NINJA v4.5 — MODO 2: OPENCODE (SOLO)
 
 ## 📌 Descripción del Modo
 El **Modo 2** es el "Ejército Autónomo". Aquí, no usamos el orquestador principal (Antigravity), sino que invocamos directamente a **Sub-Agentes Expertos** mediante OpenCode. 
@@ -37,8 +37,13 @@ Abre OpenCode y dale este prompt absoluto basado en Rol y CoT (Chain Of Thought)
 > 2) Piensa en seguridad OWASP (referencia `.agents/rules/security.md`). 
 > 3) Emite solo el bloque de código con tipos strictos de TS 5+."
 
+3. **Retorno de Código**: 
+   - Puesto que no hay integración automática en la terminal aislada, el sub-agente emitirá código puro. 
+   - El usuario debe llevar este código de vuelta al **Asistente Principal (Antigravity)** para que este lo integre físicamente en el la estructura SaaS del proyecto.
+
 ---
 
 ## ⚡ El Secreto del Éxito en el Modo 2
 - **Cero Ambigüedad**: Nunca pidas "Crea una app entera". Pide "Crea el Hook de Estado de Sesión en `/hooks/useAuth.ts`".
-- **Context Constraint**: Obliga al sub-agente a usar la carpeta `lib/` para sus herramientas base, así el modelo "Standard" compensa su conocimiento leyendo código local élite.
+- **Modelo Específico**: Siempre consulta `MODELOS_REGISTRADOS.md` para elegir la IA que mejor resuelva la tarea atómica (ej. DeepSeek para Backend).
+- **Asistencia Inversa**: Una vez generada la parte, dile a Ninja (en el chat principal): *"Ninja, aquí tienes el código del sub-agente, intégralo en el archivo correspondiente"*.

@@ -1,6 +1,6 @@
-# 📓 ANÁLISIS DE ECOSISTEMA NINJA: PROFUNDIDAD E INTEGRACIÓN (v4.0)
+# 📓 ANÁLISIS DE ECOSISTEMA NINJA: PROFUNDIDAD E INTEGRACIÓN (v4.5)
 
-Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja está diseñado para operar nativamente en el workspace de tu sistema operativo. Ha sido actualizado para reflejar los estándares 4.0.
+Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja está diseñado para operar nativamente en el workspace de tu sistema operativo. Ha sido actualizado para reflejar los estándares v4.5 (Assisted Chat & Deep SaaS).
 
 ---
 
@@ -9,7 +9,7 @@ Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja est
 2. **Aislamiento Seguro:** La carpeta `lib/` funciona como un almacén "Offline Guard". Ninja saca su experiencia técnica de ahí en lugar de depender exclusivamente del conocimiento pre-entrenado del LLM.
 3. **Integración MCP Global:** Listo para ejecutar endpoints externos a través de herramientas nativas del framework.
 4. **Context Trimming (Optimizador):** Distribuye tareas por Roles (Architect, UI, Backend) para evitar agotar los tokens de contexto de los modelos a los pocos minutos.
-5. **Snapshotting Estricto:** Reubicación de versiones en `versions/v3` y `versions/v4` para mantener la limpieza radiante en la raíz.
+5. **Scaffold-First (Automation):** Ninja v4.5 no espera al usuario. Crea los directorios `proyectos/` y archivos base de forma autónoma antes de cualquier delegación.
 6. **Edición Masiva:** Habilidad heredada de ejecutar sustituciones de código a lo largo de 50+ archivos con `multi_replace_file_content`.
 7. **Browser Automation:** Ninja "Nivel 1" puede revisar cómo quedaron visualmente los componentes UI que sus sub-agentes escribieron en OpenCode.
 8. **Recuperación Estructural:** Auto-sanación y backtracking de errores de consola durante la compilación Node/Vite.
@@ -37,16 +37,16 @@ Este documento condensa los más de 50 puntos de análisis sobre cómo Ninja est
 25. **Testing Unitario Autogenerado:** Ningún Sub-Agente backend termina su trabajo sin entregar el archivo Vitest de pruebas (`.spec.ts`).
 26. **Playwright E2E Master:** Setup y ejecución condicional de UI E2E Browsing en local.
 27. **Migración Drizzle Segura:** Rollbacks automáticos creados por el Sub-Agente antes de cualquier push al database.
-28. **Vibecoding Implementation:** Control en lenguaje natural ("Vibe") traducido por el "Architect" a especificaciones de extrema rigurosidad técnica.
+28. **Vibecoding & Assisted Chat:** El control en lenguaje natural ("Vibe") trasciende a una asistencia proactiva donde Ninja guía la extracción del PRD hasta el 100%.
 
 ---
 
 ### 🤝 FASE 4: Orquestación Sublime y Prompts (31-40)
 31. **Role Switching Fluido:** Ninja cambia mentalmente de Architect a SecOps sin perder los hilos de las variables pasadas.
 32. **Conflict Resolution Local:** Agilización para resolver conflictos de Merge sin asustar al LLM.
-33. **Prompt Generation Strictness (v4.0 Rule):** Ninja 4.0 redacta Prompts que parecen manuales nucleares para modelos gratuitos. **Es obligatorio que estos prompts se generen hiper-detallados y siempre en INGLÉS**, sin importar el idioma en que el usuario hable.
+33. **Prompt Master Generation (v4.5 Rule):** Ninja v4.5 redacta Prompts Maestros con asignación automática de modelos desde `MODELOS_REGISTRADOS.md`. **Es obligatorio que estos prompts incluyan enforcers de framework** (ej. "use client") e instrucciones de retorno de código para integración autónoma.
 34. **Limitación de Modelos Inferiores:** Con un buen Prompt (Few-shot, CoT), Ninja hace que un modelo de parámetro 8B razone como un GPT-4o para tareas atómicas.
 35. **Multi-Tenant / Microservices Ready:** Diseño conceptual listo para dividir rutas de Hono en micro-workers de Cloudflare.
 
 ---
-*Fin del Análisis Sistémico de Ecosistema — Ninja v4.0 PRO.*
+*Fin del Análisis Sistémico de Ecosistema — Ninja v4.5 (Deep SaaS Scale).*
